@@ -1,0 +1,9 @@
+{
+  "projectId": "studio-5722336766-26186",
+  "build": {
+    "builder": "NEXTJS",
+    "config": {
+      "useCloudRun": true
+    }
+  }
+}

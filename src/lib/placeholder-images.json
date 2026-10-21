@@ -1,0 +1,47 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "turkey-hero",
+      "description": "A stylized 3D map of Turkey showing various landmarks.",
+      "imageUrl": "/Turkiye.png",
+      "imageHint": "turkey map"
+    },
+    {
+      "id": "logo",
+      "description": "RotaTurk logo",
+      "imageUrl": "/logo.png",
+      "imageHint": "logo"
+    },
+    {
+      "id": "poi-default",
+      "description": "A generic placeholder for a point of interest.",
+      "imageUrl": "https://images.unsplash.com/photo-1761865201391-d3e8899baad6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGFuZG1hcmslMjB0cmF2ZWx8ZW58MHx8fHwxNzYyMTE1MzM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "landmark travel"
+    },
+    {
+      "id": "intro-istanbul",
+      "description": "Istanbul view",
+      "imageUrl": "https://imgur.com/H17xof0.jpeg",
+      "imageHint": "istanbul view"
+    },
+    {
+      "id": "intro-pamukkale",
+      "description": "Pamukkale travertines",
+      "imageUrl": "https://imgur.com/RKGndzF.jpeg",
+      "imageHint": "pamukkale view"
+    },
+    {
+      "id": "intro-cappadocia",
+      "description": "Cappadocia hot air balloons",
+      "imageUrl": "https://imgur.com/nBNcqvg.jpeg",
+      "imageHint": "cappadocia view"
+    },
+    {
+      "id": "intro-kula",
+      "description": "Kula-Salihli Geopark",
+      "imageUrl": "https://imgur.com/4jOoBX2.jpeg",
+      "imageHint": "kula geopark"
+    }
+  ]
+}

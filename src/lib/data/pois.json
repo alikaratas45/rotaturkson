@@ -1,0 +1,38 @@
+
+[
+    {
+        "id": "1",
+        "name": "Efes Antik Kenti, İzmir, Türkiye",
+        "description": "Antik dünyanın en önemli metropollerinden biri.",
+        "latitude": 37.9413,
+        "longitude": 27.3426
+    },
+    {
+        "id": "2",
+        "name": "Kapadokya Peri Bacaları, Nevşehir, Türkiye",
+        "description": "Eşsiz kaya oluşumları ve tarihi yerleşimler.",
+        "latitude": 38.6431,
+        "longitude": 34.8286
+    },
+    {
+        "id": "3",
+        "name": "Ayasofya, İstanbul, Türkiye",
+        "description": "Tarihi mimarisi ile ünlü, eski bazilika ve şimdiki cami.",
+        "latitude": 41.0086,
+        "longitude": 28.9800
+    },
+    {
+        "id": "4",
+        "name": "Pamukkale Travertenleri, Denizli, Türkiye",
+        "description": "Termal suların oluşturduğu beyaz kalsiyum terasları.",
+        "latitude": 37.9231,
+        "longitude": 29.1221
+    },
+    {
+        "id": "5",
+        "name": "Sümela Manastırı, Trabzon, Türkiye",
+        "description": "Sarp bir kayalık üzerine kurulmuş olan Rum Ortodoks manastırı.",
+        "latitude": 40.6908,
+        "longitude": 39.6583
+    }
+]

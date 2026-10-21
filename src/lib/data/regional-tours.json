@@ -1,0 +1,124 @@
+
+{
+    "regions": [
+        {
+            "key": "marmara",
+            "name": {
+                "tr": "Marmara Bölgesi",
+                "en": "Marmara Region",
+                "fr": "Région de Marmara",
+                "de": "Marmara-Region"
+            },
+            "description": {
+                "tr": "Tarih, kültür ve sanayinin kalbi.",
+                "en": "The heart of history, culture, and industry.",
+                "fr": "Le cœur de l'histoire, de la culture et de l'industrie.",
+                "de": "Das Herz von Geschichte, Kultur und Industrie."
+            },
+            "icon": "Ship",
+            "cities": ["İstanbul", "Bursa", "Edirne", "Kocaeli", "Tekirdağ", "Sakarya", "Balıkesir", "Bilecik", "Yalova", "Kırklareli", "Çanakkale"]
+        },
+        {
+            "key": "ege",
+            "name": {
+                "tr": "Ege Bölgesi",
+                "en": "Aegean Region",
+                "fr": "Région Égéenne",
+                "de": "Ägäis-Region"
+            },
+            "description": {
+                "tr": "Antik kentler, masmavi deniz ve zeytin ağaçları.",
+                "en": "Ancient cities, turquoise seas, and olive trees.",
+                "fr": "Villes anciennes, mers turquoises et oliviers.",
+                "de": "Antike Städte, türkisfarbenes Meer und Olivenbäume."
+            },
+            "icon": "Sailboat",
+            "cities": ["İzmir", "Aydın", "Muğla", "Manisa", "Denizli", "Afyonkarahisar", "Kütahya", "Uşak"]
+        },
+        {
+            "key": "akdeniz",
+            "name": {
+                "tr": "Akdeniz Bölgesi",
+                "en": "Mediterranean Region",
+                "fr": "Région Méditerranéenne",
+                "de": "Mittelmeer-Region"
+            },
+            "description": {
+                "tr": "Güneş, kumsal ve Torosların görkemi.",
+                "en": "Sun, sand, and the majesty of the Taurus Mountains.",
+                "fr": "Soleil, sable et majesté des montagnes du Taurus.",
+                "de": "Sonne, Sand und die Majestät des Taurus-Gebirges."
+            },
+            "icon": "Waves",
+            "cities": ["Antalya", "Adana", "Mersin", "Hatay", "Isparta", "Burdur", "Osmaniye", "Kahramanmaraş"]
+        },
+        {
+            "key": "ic-anadolu",
+            "name": {
+                "tr": "İç Anadolu Bölgesi",
+                "en": "Central Anatolia Region",
+                "fr": "Anatolie Centrale",
+                "de": "Zentralanatolien-Region"
+            },
+            "description": {
+                "tr": "Bozkırın ortasında medeniyetlerin beşiği.",
+                "en": "The cradle of civilizations in the middle of the steppe.",
+                "fr": "Le berceau des civilisations au milieu de la steppe.",
+                "de": "Die Wiege der Zivilisationen inmitten der Steppe."
+            },
+            "icon": "Building",
+            "cities": ["Ankara", "Konya", "Kayseri", "Eskişehir", "Sivas", "Nevşehir", "Kırşehir", "Aksaray", "Karaman", "Niğde", "Yozgat", "Kırıkkale", "Çankırı"]
+        },
+        {
+            "key": "karadeniz",
+            "name": {
+                "tr": "Karadeniz Bölgesi",
+                "en": "Black Sea Region",
+                "fr": "Région de la Mer Noire",
+                "de": "Schwarzmeer-Region"
+            },
+            "description": {
+                "tr": "Yemyeşil yaylalar, hırçın dalgalar ve eşsiz lezzetler.",
+                "en": "Lush plateaus, rough waves, and unique flavors.",
+                "fr": "Plateaux luxuriants, vagues déchaînées et saveurs uniques.",
+                "de": "Üppige Hochebenen, raue Wellen und einzigartige Aromen."
+            },
+            "icon": "Trees",
+            "cities": ["Trabzon", "Samsun", "Rize", "Ordu", "Giresun", "Artvin", "Bolu", "Düzce", "Karabük", "Kastamonu", "Sinop", "Zonguldak", "Bartın", "Amasya", "Çorum", "Gümüşhane", "Tokat", "Bayburt"]
+        },
+        {
+            "key": "dogu-anadolu",
+            "name": {
+                "tr": "Doğu Anadolu Bölgesi",
+                "en": "Eastern Anatolia Region",
+                "fr": "Anatolie Orientale",
+                "de": "Östanatolien-Region"
+            },
+            "description": {
+                "tr": "Yüksek zirveler, tarihi kaleler ve zorlu coğrafya.",
+                "en": "High peaks, historical castles, and challenging geography.",
+                "fr": "Sommets élevés, châteaux historiques et géographie difficile.",
+                "de": "Hohe Gipfel, historische Burgen und herausfordernde Geographie."
+            },
+            "icon": "MountainSnow",
+            "cities": ["Erzurum", "Van", "Malatya", "Elazığ", "Erzincan", "Kars", "Ağrı", "Muş", "Bingöl", "Bitlis", "Hakkari", "Tunceli", "Ardahan", "Iğdır"]
+        },
+        {
+            "key": "guneydogu-anadolu",
+            "name": {
+                "tr": "Güneydoğu Anadolu Bölgesi",
+                "en": "Southeastern Anatolia Region",
+                "fr": "Anatolie du Sud-Est",
+                "de": "Südostanatolien-Region"
+            },
+            "description": {
+                "tr": "Tarihin sıfır noktası ve lezzetlerin anavatanı.",
+                "en": "The zero point of history and the homeland of flavors.",
+                "fr": "Le point zéro de l'histoire et la patrie des saveurs.",
+                "de": "Der Nullpunkt der Geschichte und die Heimat der Aromen."
+            },
+            "icon": "Scroll",
+            "cities": ["Gaziantep", "Şanlıurfa", "Diyarbakır", "Mardin", "Batman", "Siirt", "Adıyaman", "Kilis", "Şırnak"]
+        }
+    ]
+}

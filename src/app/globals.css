@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Varsayılan Tema: Ahmet (Eski Okyanus - #0474C4) */
+    --background: 210 40% 98%;
+    --foreground: 103 13% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 103 13% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 103 13% 15%;
+    
+    --primary: 205 96% 39%; /* #0474C4 */
+    --primary-shadow: 4, 116, 196;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 215 36% 51%; /* #5379AE */
+    --secondary-foreground: 210 40% 98%;
+    
+    --muted: 0 0% 94%;
+    --muted-foreground: 171 10% 40%;
+    
+    --accent: 215 66% 79%; /* #A8C4EC */
+    --accent-foreground: 205 96% 20%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 215 36% 85%;
+    --input: 96 10% 85%;
+    --ring: 205 96% 39%;
+    --radius: 1.25rem;
+  }
+
+  /* Ali (Gök Mavisi) */
+  [data-color-theme='sapphire'] {
+    --primary: 215 65% 65%;
+    --primary-shadow: 147, 197, 253;
+    --ring: 215 65% 65%;
+    --accent: 215 65% 95%;
+    --accent-foreground: 215 50% 30%;
+  }
+
+  /* Ahmet (Yeni Mavi Palet) */
+  [data-color-theme='jade'] {
+    --primary: 205 96% 39%;
+    --primary-shadow: 4, 116, 196;
+    --ring: 205 96% 39%;
+    --accent: 215 66% 79%;
+    --accent-foreground: 205 96% 20%;
+    --secondary: 215 36% 51%;
+    --border: 215 36% 85%;
+  }
+
+  /* Mina (Terra Cotta) */
+  [data-color-theme='mina'] {
+    --primary: 9 38% 59%; /* #BC7B6F */
+    --primary-shadow: 188, 123, 111;
+    --ring: 9 38% 59%;
+    --accent: 207 21% 53%; /* #718A9E */
+    --accent-foreground: 210 40% 98%;
+    --secondary: 9 59% 75%; /* #E4A499 */
+    --secondary-foreground: 10 37% 26%; /* #5A322A */
+    --border: 50 4% 80%; /* #CCCDC7 */
+  }
+
+  /* Nergiz (Lavanta & Şeftali) */
+  [data-color-theme='nergiz'] {
+    --primary: 265 31% 70%; /* #AF9AC9 */
+    --primary-shadow: 175, 154, 201;
+    --ring: 265 31% 70%;
+    --accent: 34 19% 56%; /* #A5937B */
+    --accent-foreground: 210 40% 98%;
+    --secondary: 35 52% 75%; /* #E3C49B */
+    --secondary-foreground: 10 37% 26%;
+    --border: 29 16% 89%; /* #E9E3DE */
+  }
+
+  /* İlhami (Petrol & Kahve) */
+  [data-color-theme='ilhami'] {
+    --primary: 196 52% 30%; /* #245F73 */
+    --primary-shadow: 36, 95, 115;
+    --ring: 196 52% 30%;
+    --accent: 20 52% 30%; /* #733E24 */
+    --accent-foreground: 210 40% 98%;
+    --secondary: 195 2% 74%; /* #BBBDBC */
+    --secondary-foreground: 196 52% 10%;
+    --border: 195 2% 85%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground overflow-x-hidden;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(var(--primary), 0.1) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(190, 50%, 65%, 0.06) 0px, transparent 50%),
+      radial-gradient(at 50% 50%, hsla(var(--primary), 0.04) 0px, transparent 100%);
+    background-attachment: scroll;
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      background-attachment: fixed;
+    }
+  }
+}
+
+@layer components {
+    .card-3d {
+        @apply transition-all duration-500 ease-out border-white/60 bg-white/80;
+        box-shadow: 
+            0 10px 30px -5px rgba(0, 0, 0, 0.05), 
+            0 4px 10px -2px rgba(0, 0, 0, 0.02);
+    }
+    .card-3d:hover {
+        @apply -translate-y-3;
+        box-shadow: 
+            0 25px 50px -12px hsla(var(--primary), 0.15), 
+            0 15px 30px -15px rgba(0, 0, 0, 0.1);
+    }
+    .glass-morphism {
+        @apply backdrop-blur-xl bg-white/70 border border-white/40;
+    }
+}
+
+@layer utilities {
+    .font-headline {
+        font-family: var(--font-poppins);
+        font-weight: 700;
+    }
+    
+    .perspective-1000 {
+        perspective: 1000px;
+    }
+
+    .animate-fade-in-zoom {
+        animation: fade-in-zoom 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    }
+
+    .animate-fade-in-up {
+        animation: fade-in-up 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.2s forwards;
+        opacity: 0;
+    }
+
+    .animate-float {
+        animation: float 5s ease-in-out infinite;
+    }
+}
+
+@keyframes fade-in-zoom {
+    from {
+        opacity: 0;
+        transform: scale(1.05) translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}

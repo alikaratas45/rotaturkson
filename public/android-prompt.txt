@@ -1,0 +1,65 @@
+### Android Uygulama Geliştirme Prompt'u
+
+**Prompt Başlığı:** RotaTurk - Akıllı Seyahat ve Rota Planlama Android Uygulaması
+
+**Uygulama Amacı:**
+"RotaTurk" adında, Türkiye'yi keşfetmek isteyen gezginler için kapsamlı bir seyahat ve rota planlama Android uygulaması oluştur. Uygulama, kullanıcıların kişisel rotalar oluşturmasına, önceden tanımlanmış turları keşfetmesine ve ilgi çekici noktalar (POI) hakkında detaylı bilgi almasına olanak tanıyacaktır. Uygulama, modern, kullanıcı dostu ve performanslı bir deneyim sunmalıdır.
+
+**Teknik Yığın ve Mimari:**
+*   **Dil:** Kotlin
+*   **Mimari:** MVVM (Model-View-ViewModel)
+*   **UI Araç Kiti:** Jetpack Compose
+*   **Asenkron İşlemler:** Kotlin Coroutines & Flow
+*   **Navigasyon:** Jetpack Navigation Compose
+*   **Veritabanı (Lokal):** Room (kaydedilen rotalar gibi verileri saklamak için)
+*   **Backend Servisleri:** Firebase (Authentication, Firestore, Realtime Database)
+*   **Harita Servisi:** Google Maps SDK for Android
+*   **Ağ İstekleri:** Retrofit & OkHttp
+
+**Temel Özellikler:**
+
+1.  **Ana Ekran ve Rota Planlama:**
+    *   Kullanıcının başlangıç, varış ve ara duraklar seçebileceği bir arayüz oluştur.
+    *   Seçilen konumlara göre Google Maps üzerinde bir rota çizdir ve toplam mesafe/süre bilgisini göster.
+    *   Rota üzerindeki turistik yerleri, restoranları ve konaklama noktalarını (POI) haritada ve bir listede göster. POI verileri için başlangıçta statik bir JSON dosyası kullanabilirsin.
+    *   Kullanıcının ilgi alanlarına (Kültürel, Tarihi, Doğal vb.) göre POI'leri filtrelemesine izin ver.
+
+2.  **Keşfet Modülleri:**
+    *   **Bölgesel Turlar:** Türkiye'nin 7 coğrafi bölgesi için (Marmara, Ege vb.) önceden tanımlanmış turistik noktaları gösteren bir ekran oluştur.
+    *   **Tematik Rotalar:** "Likya Yolu", "Kapadokya Turu" gibi hazır tematik rotalar sun. Kullanıcı bir tema seçtiğinde, ilgili rota ve POI'ler oluşturulsun.
+    *   **Şehir Keşfi:** Kullanıcının Türkiye'den bir il seçerek o ildeki tüm önemli POI'leri listeleyip haritada görebileceği bir özellik ekle.
+    *   **Yakınımdakiler:** Cihazın konumunu kullanarak 50 km çapındaki tüm POI'leri göster.
+
+3.  **Harita Özellikleri:**
+    *   Oluşturulan rotayı bir çizgi (polyline) ile haritada göster.
+    *   Tüm POI'leri harita üzerinde tıklanabilir ikonlarla (marker) işaretle. Bir ikona tıklandığında POI'nün kısa bilgisi görünsün.
+    *   Animasyonlu bir araba ikonu ile rotanın başlangıçtan bitişe doğru takip edildiği bir simülasyon özelliği ekle. Harita, bu animasyon sırasında araba ikonunu takip ederek kaymalıdır.
+
+4.  **POI Detay ve Yorumlar:**
+    *   Kullanıcı bir POI seçtiğinde, bu noktanın detaylarını (açıklama, fotoğraflar, ortalama puan) gösteren bir detay ekranı aç.
+    *   Kullanıcıların POI'ler için puan (1-5 yıldız) ve yorum bırakmasını sağla. Yorumlar Firebase Firestore'a kaydedilsin.
+    *   Google Places API entegrasyonu ile POI'ler için ek fotoğraflar ve Google kullanıcı yorumlarını göster.
+
+5.  **Kullanıcı ve Veri Yönetimi:**
+    *   **Rotalarım:** Kullanıcıların oluşturdukları veya keşfettikleri rotaları cihazın yerel veritabanına (Room) kaydetmelerini sağlayan bir "Rotalarım" sayfası oluştur.
+    *   **Kullanıcı Kimlik Doğrulama:** Firebase Authentication kullanarak anonim kullanıcı girişini zorunlu kıl. Bu, kullanıcıların yorum yapabilmesi ve online durumlarının takibi için gereklidir.
+    *   **Gerçek Zamanlı Kullanıcı Sayısı:** Firebase Realtime Database kullanarak anlık aktif kullanıcı sayısını gösteren bir sayaç ekle. (Gerçek kullanıcı sayısına ek olarak, günün saatine göre değişen simüle edilmiş bir sayı ekleyerek sayacı daha dinamik göster.)
+
+6.  **Diğer Ekranlar ve Özellikler:**
+    *   **Sponsorluk/Reklam Sayfası:** Uygulama hakkında bilgi veren ve sponsorluk için iletişim bilgilerinin yer aldığı statik bir ekran oluştur.
+    *   **Dil Desteği (i18n):** Uygulama metinleri Türkçe (varsayılan) ve İngilizce dillerini desteklemelidir.
+    *   **Tema Desteği:** Açık ve Koyu tema seçenekleri sun.
+
+**Tasarım ve UI/UX Kuralları:**
+*   **Renk Paleti:**
+    *   **Ana Renk (Primary):** Canlı turkuaz (`#2DC6A3`)
+    *   **Arka Plan (Background):** Açık, desatüre turkuaz (`#F2FCFA`)
+    *   **Vurgu (Accent):** Yumuşak turkuaz (`#35B092`)
+*   **Font:** Modern ve okunaklı bir sans-serif font ailesi kullan (örn: PT Sans, Roboto).
+*   **İkonlar:** Google Material Icons veya benzeri modern bir ikon seti kullan.
+*   **Genel Stil:** Jetpack Compose `MaterialTheme` kullanarak, yuvarlak köşeli kartlar, hafif gölgeler ve akıcı geçiş animasyonları ile modern ve estetik bir tasarım oluştur.
+
+**Statik Veriler:**
+*   Uygulama için gerekli olan POI listesi, tematik rotalar, bölgesel turlar ve il/ilçe verileri için JSON dosyaları kullanılacaktır. Bu dosyaları uygulamanın `assets` klasörüne ekleyip oradan okumalısın.
+
+Bu prompt, uygulamanın tüm gereksinimlerini detaylı bir şekilde kapsamaktadır. Başlayabilirsin.

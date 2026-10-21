@@ -1,0 +1,148 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "displayName": { "type": "string" },
+        "firstName": { "type": "string" },
+        "lastName": { "type": "string" },
+        "totalPoints": { "type": "number", "default": 0 },
+        "lastLogin": { "type": "string", "format": "date-time" }
+      },
+      "required": ["id"]
+    },
+    "POI": {
+      "title": "POI",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "object" },
+        "location": { "type": "object" },
+        "type": { "type": "string" },
+        "description": { "type": "object" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "sponsored": { "type": "boolean" },
+        "avgRating": { "type": "number" },
+        "checkinCount": { "type": "number" }
+      },
+      "required": ["id", "name", "latitude", "longitude"]
+    },
+    "CheckIn": {
+      "title": "CheckIn",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "poiId": { "type": "string" },
+        "rating": { "type": "number" },
+        "timestamp": { "type": "object" },
+        "userName": { "type": "string" }
+      }
+    },
+    "SharedRoute": {
+      "title": "SharedRoute",
+      "type": "object",
+      "properties": {
+        "routeData": { "type": "object" },
+        "createdAt": { "type": "object" }
+      },
+      "required": ["routeData"]
+    },
+    "Feedback": {
+      "title": "Feedback",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "message": { "type": "string" },
+        "userId": { "type": "string" },
+        "createdAt": { "type": "object" },
+        "reply": { "type": "string" },
+        "repliedAt": { "type": "object" }
+      }
+    },
+    "ActiveTraveler": {
+      "title": "ActiveTraveler",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "displayName": { "type": "string" },
+        "latitude": { "type": "number" },
+        "longitude": { "type": "number" },
+        "lastUpdated": { "type": "object" },
+        "routeName": { "type": "string" },
+        "routePolyline": { "type": "string" }
+      }
+    },
+    "ChatRoom": {
+      "title": "ChatRoom",
+      "type": "object",
+      "properties": {
+        "participants": { "type": "array", "items": { "type": "string" } },
+        "lastMessage": { "type": "string" },
+        "lastMessageAt": { "type": "object" }
+      }
+    },
+    "ChatMessage": {
+      "title": "ChatMessage",
+      "type": "object",
+      "properties": {
+        "senderId": { "type": "string" },
+        "senderName": { "type": "string" },
+        "recipientId": { "type": "string" },
+        "text": { "type": "string" },
+        "timestamp": { "type": "object" }
+      }
+    },
+    "Metadata": {
+      "title": "Metadata",
+      "type": "object",
+      "properties": {
+        "count": { "type": "number" }
+      }
+    }
+  },
+  "auth": {
+    "providers": ["password", "anonymous"]
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/backend/entities/User" },
+      "description": "User profiles. Publicly readable for the leaderboard feature."
+    },
+    "/sharedRoutes/{routeId}": {
+      "schema": { "$ref": "#/backend/entities/SharedRoute" },
+      "description": "User shared travel routes."
+    },
+    "/pois/{poiId}": {
+      "schema": { "$ref": "#/backend/entities/POI" },
+      "description": "Points of interest data."
+    },
+    "/checkins/{checkinId}": {
+      "schema": { "$ref": "#/backend/entities/CheckIn" },
+      "description": "User visits to POIs."
+    },
+    "/feedback/{feedbackId}": {
+      "schema": { "$ref": "#/backend/entities/Feedback" },
+      "description": "User feedback and admin replies. Publicly readable."
+    },
+    "/activeTravelers/{userId}": {
+      "schema": { "$ref": "#/backend/entities/ActiveTraveler" },
+      "description": "Real-time location and route data of active travelers."
+    },
+    "/chats/{roomId}": {
+      "schema": { "$ref": "#/backend/entities/ChatRoom" },
+      "description": "One-on-one chat sessions."
+    },
+    "/chats/{roomId}/messages/{messageId}": {
+      "schema": { "$ref": "#/backend/entities/ChatMessage" },
+      "description": "Individual messages within a chat room."
+    },
+    "/metadata/{docId}": {
+      "schema": { "$ref": "#/backend/entities/Metadata" },
+      "description": "Global application metadata and statistics."
+    }
+  }
+}

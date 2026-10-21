@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Default (Turkish) URLs -->
+  <url>
+    <loc>https://rotaturk.net/tr</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://rotaturk.net/tr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rotaturk.net/en" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rotaturk.net/tr/my-routes</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://rotaturk.net/tr/my-routes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rotaturk.net/en/my-routes" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rotaturk.net/tr/sponsorship</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://rotaturk.net/tr/sponsorship" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rotaturk.net/en/sponsorship" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rotaturk.net/tr/feedback</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://rotaturk.net/tr/feedback" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rotaturk.net/en/feedback" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- English URLs -->
+  <url>
+    <loc>https://rotaturk.net/en</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://rotaturk.net/tr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rotaturk.net/en" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rotaturk.net/en/my-routes</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://rotaturk.net/tr/my-routes" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rotaturk.net/en/my-routes" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rotaturk.net/en/sponsorship</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://rotaturk.net/tr/sponsorship" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rotaturk.net/en/sponsorship" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rotaturk.net/en/feedback</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://rotaturk.net/tr/feedback" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rotaturk.net/en/feedback" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Root redirect -->
+  <url>
+    <loc>https://rotaturk.net/</loc>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://rotaturk.net/tr" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://rotaturk.net/en" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>

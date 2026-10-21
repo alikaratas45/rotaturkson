@@ -1,0 +1,45 @@
+
+{
+  "events": [
+    {
+      "id": "ev_1",
+      "city": "Adana",
+      "type": "Festival",
+      "title": { "tr": "Uluslararası Portakal Çiçeği Karnavalı", "en": "International Orange Blossom Carnival", "fr": "Carnaval International de la Fleur d'Oranger", "de": "Internationaler Orangenblütenkarneval" },
+      "description": { "tr": "Adana'nın sokaklarının portakal çiçeği koktuğu, konserler ve geçit törenleriyle dolu muhteşem bir bahar karnavalı.", "en": "A magnificent spring carnival full of concerts and parades, where the streets of Adana smell of orange blossoms.", "fr": "Un magnifique carnaval de printemps plein de concerts et de défilés, où les rues d'Adana sentent la fleur d'oranger.", "de": "Ein prächtiger Frühlingskarneval voller Konzerte und Paraden, bei dem die Straßen von Adana nach Orangenblüten duften." },
+      "dateInfo": { "tr": "Nisan Ayı Boyunca", "en": "Throughout April", "fr": "Tout au long d'avril", "de": "Den ganzen April über" }
+    },
+    {
+      "id": "ev_2",
+      "city": "İstanbul",
+      "type": "Pazar",
+      "title": { "tr": "Tarihi İnebolu Köy Pazarı", "en": "Historic İnebolu Village Market", "fr": "Marché Villageois Historique d'İnebolu", "de": "Historischer Dorfmarkt İnebolu" },
+      "description": { "tr": "Kasımpaşa'da her Pazar kurulan, Kastamonu'dan gelen taptaze köy ürünlerinin satıldığı otantik bir pazar.", "en": "An authentic market held every Sunday in Kasımpaşa, selling fresh village products from Kastamonu.", "fr": "Un marché authentique qui se tient tous les dimanches à Kasımpaşa, vendant des produits frais du village de Kastamonu.", "de": "Ein authentischer Markt, der jeden Sonntag in Kasımpaşa stattfindet und frische Dorfprodukte aus Kastamonu verkauft." },
+      "dateInfo": { "tr": "Her Pazar, 07:00 - 14:00", "en": "Every Sunday, 07:00 - 14:00", "fr": "Chaque dimanche, 07:00 - 14:00", "de": "Jeden Sonntag, 07:00 - 14:00" }
+    },
+    {
+      "id": "ev_3",
+      "city": "İzmir",
+      "type": "Festival",
+      "title": { "tr": "Alaçatı Ot Festivali", "en": "Alaçatı Herb Festival", "fr": "Festival des Herbes d'Alaçatı", "de": "Alaçatı Kräuterfestival" },
+      "description": { "tr": "Ege'nin şifalı otlarının tanıtıldığı, yöresel yemek yarışmalarının ve tadımların yapıldığı renkli festival.", "en": "A colorful festival where Aegean healing herbs are introduced, and local cooking competitions and tastings are held.", "fr": "Un festival coloré où les herbes médicinales de l'Égée sont présentées, avec des concours de cuisine locale et des dégustations.", "de": "Ein farbenfrohes Festival, bei dem ägäische Heilkräuter vorgestellt werden und lokale Kochwettbewerbe sowie Verkostungen stattfinden." },
+      "dateInfo": { "tr": "Bahar Dönemi (Nisan/Mayıs)", "en": "Spring Season (April/May)", "fr": "Saison de printemps (Avril/Mai)", "de": "Frühlingssaison (April/Mai)" }
+    },
+    {
+      "id": "ev_4",
+      "city": "Şanlıurfa",
+      "type": "Kültürel",
+      "title": { "tr": "Geleneksel Sıra Gecesi Etkinlikleri", "en": "Traditional Sıra Gecesi Events", "fr": "Événements Traditionnels Sıra Gecesi", "de": "Traditionelle Sıra Gecesi Veranstaltungen" },
+      "description": { "tr": "Urfa'nın kadim müzik ve yemek kültürünün yaşatıldığı, çiğ köfte ikramlı müzik şöleni.", "en": "A musical feast with 'çiğ köfte' treats, where Urfa's ancient music and food culture is kept alive.", "fr": "Un festin musical avec des 'çiğ köfte', où la culture musicale et culinaire ancestrale d'Urfa est maintenue vivante.", "de": "Ein musikalisches Fest mit 'çiğ köfte', bei dem Urfas alte Musik- und Esskultur lebendig gehalten wird." },
+      "dateInfo": { "tr": "Her Akşam, Tarihi Konaklarda", "en": "Every Evening, in Historic Mansions", "fr": "Chaque soir, dans des demeures historiques", "de": "Jeden Abend, in historischen Herrenhäusern" }
+    },
+    {
+      "id": "ev_5",
+      "city": "Nevşehir",
+      "type": "Festival",
+      "title": { "tr": "Kapadokya Balon Festivali", "en": "Cappadocia Balloon Festival", "fr": "Festival de Montgolfières de Cappadoce", "de": "Kappadokien Ballonfestival" },
+      "description": { "tr": "Dünyanın dört bir yanından gelen figürlü balonların Kapadokya semalarını süslediği görsel şölen.", "en": "A visual feast where figured balloons from all over the world decorate the skies of Cappadocia.", "fr": "Un spectacle visuel où des montgolfières à figures du monde entier décorent le ciel de Cappadoce.", "de": "Ein visuelles Fest, bei dem Figurenballons aus aller Welt den Himmel von Kappadokien schmücken." },
+      "dateInfo": { "tr": "Temmuz - Ağustos", "en": "July - August", "fr": "Juillet - Août", "de": "Juli - August" }
+    }
+  ]
+}

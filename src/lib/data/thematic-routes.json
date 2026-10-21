@@ -1,0 +1,129 @@
+
+{
+    "routes": [
+        {
+            "key": "ege-antik",
+            "name": {
+                "tr": "Ege'nin Antik Limanları",
+                "en": "Ancient Ports of the Aegean",
+                "fr": "Ports Antiques de l'Égée",
+                "de": "Antike Häfen der Ägäis"
+            },
+            "description": {
+                "tr": "Efes'ten Assos'a, tarih boyunca medeniyetlere ev sahipliği yapmış liman kentlerini keşfedin.",
+                "en": "Discover port cities from Ephesus to Assos that have hosted civilizations throughout history.",
+                "fr": "Découvrez les cités portuaires d'Éphèse à Assos qui ont accueilli des civilisations à travers l'histoire.",
+                "de": "Entdecken Sie Hafenstädte von Ephesus bis Assos, die im Laufe der Geschichte Zivilisationen beherbergt haben."
+            },
+            "icon": "Landmark",
+            "params": {
+                "start": { "city": "İzmir", "district": "Selçuk" },
+                "end": { "city": "Çanakkale", "district": "Ayvacık" },
+                "stops": [
+                    { "city": "Aydın", "district": "Didim" }
+                ],
+                "poiTypes": ["Arkeolojik", "Tarihi"],
+                "fuelCostPerKm": 0
+            }
+        },
+        {
+            "key": "likya-yolu",
+            "name": {
+                "tr": "Likya Yolu Lezzet Durakları",
+                "en": "Lycian Way Flavor Stops",
+                "fr": "Escales Gourmandes de la Voie Lycienne",
+                "de": "Kulinarische Stopps am Lykischen Weg"
+            },
+            "description": {
+                "tr": "Fethiye'den Antalya'ya uzanan Likya Yolu üzerinde yöresel lezzetleri ve doğal güzellikleri tadın.",
+                "en": "Taste local flavors and natural beauties on the Lycian Way from Fethiye to Antalya.",
+                "fr": "Goûtez aux saveurs locales et aux beautés naturelles sur la Voie Lycienne de Fethiye à Antalya.",
+                "de": "Probieren Sie lokale Aromen und Naturschönheiten auf dem Lykischen Weg von Fethiye nach Antalya."
+            },
+            "icon": "Utensils",
+            "params": {
+                "start": { "city": "Muğla", "district": "Fethiye" },
+                "end": { "city": "Antalya", "district": "Konyaaltı" },
+                "stops": [
+                    { "city": "Antalya", "district": "Kaş" }
+                ],
+                "poiTypes": ["Yeme-İçme", "Doğal", "Arkeolojik"],
+                "fuelCostPerKm": 0
+            }
+        },
+        {
+            "key": "karadeniz-yaylalar",
+            "name": {
+                "tr": "Karadeniz'in Yemyeşil Yaylaları",
+                "en": "Lush Plateaus of the Black Sea",
+                "fr": "Plateaux Luxuriants de la Mer Noire",
+                "de": "Üppige Hochebenen des Schwarzen Meeres"
+            },
+            "description": {
+                "tr": "Rize'nin Çamlıhemşin yaylalarından Artvin'in Macahel'ine, bulutların üzerinde bir yolculuk.",
+                "en": "A journey above the clouds, from the plateaus of Rize's Çamlıhemşin to Artvin's Macahel.",
+                "fr": "Un voyage au-dessus des nuages, des plateaux de Çamlıhemşin à Macahel.",
+                "de": "Eine Reise über den Wolken, von den Hochebenen von Çamlıhemşin nach Macahel."
+            },
+            "icon": "Leaf",
+            "params": {
+                "start": { "city": "Rize", "district": "Çamlıhemşin" },
+                "end": { "city": "Artvin", "district": "Borçka" },
+                "stops": [],
+                "poiTypes": ["Doğal", "Kültürel"],
+                "fuelCostPerKm": 0
+            }
+        },
+        {
+            "key": "kapadokya-balon",
+            "name": {
+                "tr": "Kapadokya Baştan Başa",
+                "en": "Cappadocia from End to End",
+                "fr": "La Cappadoce de Bout en Bout",
+                "de": "Kappadokien von Ende zu Ende"
+            },
+            "description": {
+                "tr": "Peri bacaları, yeraltı şehirleri ve balon turlarıyla Kapadokya'nın büyülü atmosferini yaşayın.",
+                "en": "Experience the magical atmosphere of Cappadocia with fairy chimneys, underground cities, and balloon tours.",
+                "fr": "Découvrez l'atmosphère magique de la Cappadoce avec ses cheminées de fées et ses cités souterraines.",
+                "de": "Erleben Sie die magische Atmosphäre Kappadokiens mit Feenkaminen, unterirdischen Städten und Ballonfahrten."
+            },
+            "icon": "Wind",
+            "params": {
+                "start": { "city": "Nevşehir", "district": "Göreme" },
+                "end": { "city": "Aksaray", "district": "Güzelyurt" },
+                "stops": [
+                    { "city": "Nevşehir", "district": "Ürgüp" },
+                    { "city": "Nevşehir", "district": "Avanos" }
+                ],
+                "poiTypes": ["Doğal", "Arkeolojik", "Tarihi", "Kültürel"],
+                "fuelCostPerKm": 0
+            }
+        },
+        {
+            "key": "mezopotamya-gurme",
+            "name": {
+                "tr": "Mezopotamya Gurme Turu",
+                "en": "Mesopotamia Gourmet Tour",
+                "fr": "Tour Gourmand en Mésopotamie",
+                "de": "Mesopotamien Gourmet-Tour"
+            },
+            "description": {
+                "tr": "Gaziantep'ten Mardin'e, dünyanın en zengin mutfaklarından birinin izinde bir lezzet şöleni.",
+                "en": "A feast of flavors from Gaziantep to Mardin, following the trail of one of the world's richest cuisines.",
+                "fr": "Un festin de saveurs de Gaziantep à Mardin, sur les traces de l'une des cuisines les plus riches au monde.",
+                "de": "Ein Fest der Aromen von Gaziantep bis Mardin, auf den Spuren einer der reichsten Küchen der Welt."
+            },
+            "icon": "Beef",
+            "params": {
+                "start": { "city": "Gaziantep", "district": "Şahinbey" },
+                "end": { "city": "Mardin", "district": "Artuklu" },
+                "stops": [
+                    { "city": "Şanlıurfa", "district": "Haliliye" }
+                ],
+                "poiTypes": ["Yeme-İçme", "Kültürel", "Tarihi"],
+                "fuelCostPerKm": 0
+            }
+        }
+    ]
+}
