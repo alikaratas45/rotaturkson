@@ -68,6 +68,486 @@
       "latitude": 36.7911847,
       "longitude": 33.3520436,
       "createdAt": "2026-10-22T06:40:00.000Z"
+    },
+    {
+      "id": "poi_nemrut_kalderasi",
+      "name": {"tr": "Nemrut Kalderası", "en": "Nemrut Caldera", "fr": "Caldeira de Nemrut", "de": "Nemrut-Caldera"},
+      "description": {"tr": "Bitlis'in Tatvan ilçesindeki Nemrut Kalderası, volkanik oluşumlarıyla tanınan bir doğa alanıdır.", "en": "Nemrut Caldera is a volcanic natural area in Tatvan, Bitlis.", "fr": "La caldeira de Nemrut est un site naturel volcanique situé à Tatvan, dans la province de Bitlis.", "de": "Die Nemrut-Caldera ist ein vulkanisches Naturgebiet in Tatvan, Provinz Bitlis."},
+      "location": {"city": "Bitlis", "district": "Tatvan"},
+      "type": "Doğal",
+      "latitude": 38.6221695,
+      "longitude": 42.2422983,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_adatepe_koyu",
+      "name": {"tr": "Adatepe Köyü", "en": "Adatepe Village", "fr": "Village d'Adatepe", "de": "Dorf Adatepe"},
+      "description": {"tr": "Adatepe Köyü, Çanakkale'nin Ayvacık ilçesinde yer alan tarihî bir köydür.", "en": "Adatepe is a historic village in the Ayvacık district of Çanakkale.", "fr": "Adatepe est un village historique du district d'Ayvacık, dans la province de Çanakkale.", "de": "Adatepe ist ein historisches Dorf im Landkreis Ayvacık in der Provinz Çanakkale."},
+      "location": {"city": "Çanakkale", "district": "Ayvacık"},
+      "type": "Tarihi",
+      "latitude": 39.5693813,
+      "longitude": 26.619281,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_zeus_altari_adatepe",
+      "name": {"tr": "Zeus Altarı", "en": "Altar of Zeus", "fr": "Autel de Zeus", "de": "Zeusaltar"},
+      "description": {"tr": "Zeus Altarı, Adatepe yakınlarında, Çanakkale'nin Ayvacık ilçesinde bulunan tarihî bir ziyaret noktasıdır.", "en": "The Altar of Zeus is a historic site near Adatepe in the Ayvacık district of Çanakkale.", "fr": "L'autel de Zeus est un site historique près d'Adatepe, dans le district d'Ayvacık, à Çanakkale.", "de": "Der Zeusaltar ist eine historische Sehenswürdigkeit bei Adatepe im Landkreis Ayvacık, Çanakkale."},
+      "location": {"city": "Çanakkale", "district": "Ayvacık"},
+      "type": "Arkeolojik",
+      "latitude": 39.5604593,
+      "longitude": 26.6178882,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_adatepe_tas_mektep",
+      "name": {"tr": "Taş Mektep", "en": "Stone School", "fr": "École de pierre", "de": "Steinschule"},
+      "description": {"tr": "Taş Mektep, Çanakkale'nin Ayvacık ilçesindeki Adatepe Köyü'nde bulunan tarihî bir yapıdır.", "en": "The Stone School is a historic building in Adatepe village, Ayvacık, Çanakkale.", "fr": "L'École de pierre est un bâtiment historique du village d'Adatepe, dans le district d'Ayvacık, à Çanakkale.", "de": "Die Steinschule ist ein historisches Gebäude im Dorf Adatepe, Landkreis Ayvacık, Çanakkale."},
+      "location": {"city": "Çanakkale", "district": "Ayvacık"},
+      "type": "Tarihi",
+      "latitude": 39.5698529,
+      "longitude": 26.6172908,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_arapapisti_kanyonu",
+      "name": {"tr": "Arapapıştı Kanyonu", "en": "Arapapıştı Canyon", "fr": "Canyon d'Arapapıştı", "de": "Arapapıştı-Schlucht"},
+      "description": {"tr": "Arapapıştı Kanyonu, Aydın'ın Bozdoğan ilçesinde bulunan doğal bir kanyondur.", "en": "Arapapıştı Canyon is a natural gorge in the Bozdoğan district of Aydın.", "fr": "Le canyon d'Arapapıştı est une gorge naturelle du district de Bozdoğan, dans la province d'Aydın.", "de": "Die Arapapıştı-Schlucht ist eine natürliche Schlucht im Landkreis Bozdoğan in der Provinz Aydın."},
+      "location": {"city": "Aydın", "district": "Bozdoğan"},
+      "type": "Doğal",
+      "latitude": 37.5235556,
+      "longitude": 28.5794444,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_sahindere_kanyonu",
+      "name": {"tr": "Şahindere Kanyonu", "en": "Şahindere Canyon", "fr": "Canyon de Şahindere", "de": "Şahindere-Schlucht"},
+      "description": {"tr": "Şahindere Kanyonu, Balıkesir'in Edremit ilçesinde, Kazdağları çevresinde yer alan doğal bir alandır.", "en": "Şahindere Canyon is a natural area near Mount Ida in the Edremit district of Balıkesir.", "fr": "Le canyon de Şahindere est un site naturel près du mont Ida, dans le district d'Edremit, à Balıkesir.", "de": "Die Şahindere-Schlucht ist ein Naturgebiet nahe dem Ida-Gebirge im Landkreis Edremit, Balıkesir."},
+      "location": {"city": "Balıkesir", "district": "Edremit"},
+      "type": "Doğal",
+      "latitude": 39.5736,
+      "longitude": 26.749,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_horma_kanyonu",
+      "name": {"tr": "Horma Kanyonu", "en": "Horma Canyon", "fr": "Canyon d'Horma", "de": "Horma-Schlucht"},
+      "description": {"tr": "Horma Kanyonu, Kastamonu'nun Pınarbaşı ilçesinde bulunan doğal bir kanyondur.", "en": "Horma Canyon is a natural gorge in the Pınarbaşı district of Kastamonu.", "fr": "Le canyon d'Horma est une gorge naturelle du district de Pınarbaşı, dans la province de Kastamonu.", "de": "Die Horma-Schlucht ist eine natürliche Schlucht im Landkreis Pınarbaşı in der Provinz Kastamonu."},
+      "location": {"city": "Kastamonu", "district": "Pınarbaşı"},
+      "type": "Doğal",
+      "latitude": 41.6328488,
+      "longitude": 33.1418706,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_valla_kanyonu",
+      "name": {"tr": "Valla Kanyonu", "en": "Valla Canyon", "fr": "Canyon de Valla", "de": "Valla-Schlucht"},
+      "description": {"tr": "Valla Kanyonu, Kastamonu'nun Pınarbaşı ilçesinde yer alan doğal bir kanyondur.", "en": "Valla Canyon is a natural gorge in the Pınarbaşı district of Kastamonu.", "fr": "Le canyon de Valla est une gorge naturelle du district de Pınarbaşı, dans la province de Kastamonu.", "de": "Die Valla-Schlucht ist eine natürliche Schlucht im Landkreis Pınarbaşı in der Provinz Kastamonu."},
+      "location": {"city": "Kastamonu", "district": "Pınarbaşı"},
+      "type": "Doğal",
+      "latitude": 41.7204546,
+      "longitude": 33.0732024,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_ilica_selalesi_kastamonu",
+      "name": {"tr": "Ilıca Şelalesi", "en": "Ilıca Waterfall", "fr": "Cascade d'Ilıca", "de": "Ilıca-Wasserfall"},
+      "description": {"tr": "Ilıca Şelalesi, Kastamonu'nun Pınarbaşı ilçesinde bulunan doğal bir şelaledir.", "en": "Ilıca Waterfall is a natural waterfall in the Pınarbaşı district of Kastamonu.", "fr": "La cascade d'Ilıca est une chute d'eau naturelle du district de Pınarbaşı, à Kastamonu.", "de": "Der Ilıca-Wasserfall ist ein natürlicher Wasserfall im Landkreis Pınarbaşı, Kastamonu."},
+      "location": {"city": "Kastamonu", "district": "Pınarbaşı"},
+      "type": "Doğal",
+      "latitude": 41.6542652,
+      "longitude": 33.1414971,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_gideros_koyu",
+      "name": {"tr": "Gideros Koyu", "en": "Gideros Bay", "fr": "Baie de Gideros", "de": "Bucht von Gideros"},
+      "description": {"tr": "Gideros Koyu, Kastamonu'nun Cide ilçesinde bulunan doğal bir kıyı koyudur.", "en": "Gideros Bay is a natural coastal inlet in the Cide district of Kastamonu.", "fr": "La baie de Gideros est une anse naturelle du district de Cide, dans la province de Kastamonu.", "de": "Die Bucht von Gideros ist eine natürliche Küstenbucht im Landkreis Cide, Kastamonu."},
+      "location": {"city": "Kastamonu", "district": "Cide"},
+      "type": "Doğal",
+      "latitude": 41.888,
+      "longitude": 32.99,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_guzelcehisar_lav_sutunlari",
+      "name": {"tr": "Güzelcehisar Lav Sütunları", "en": "Güzelcehisar Lava Columns", "fr": "Colonnes de lave de Güzelcehisar", "de": "Lavasäulen von Güzelcehisar"},
+      "description": {"tr": "Güzelcehisar Lav Sütunları, Bartın Merkez'de kıyı boyunca görülebilen doğal oluşumlardır.", "en": "The Güzelcehisar Lava Columns are natural formations on the coast of Bartın.", "fr": "Les colonnes de lave de Güzelcehisar sont des formations naturelles du littoral de Bartın.", "de": "Die Lavasäulen von Güzelcehisar sind natürliche Formationen an der Küste von Bartın."},
+      "location": {"city": "Bartın", "district": "Merkez"},
+      "type": "Doğal",
+      "latitude": 41.6308996,
+      "longitude": 32.1786727,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_goynuk_tarihi_evleri",
+      "name": {"tr": "Göynük Tarihi Evleri", "en": "Historic Houses of Göynük", "fr": "Maisons historiques de Göynük", "de": "Historische Häuser von Göynük"},
+      "description": {"tr": "Göynük Tarihi Evleri, Bolu'nun Göynük ilçesindeki tarihî kent dokusunu yansıtan yapılardır.", "en": "The Historic Houses of Göynük reflect the historic townscape of Göynük, Bolu.", "fr": "Les maisons historiques de Göynük témoignent du patrimoine urbain du district de Göynük, à Bolu.", "de": "Die historischen Häuser von Göynük prägen das historische Ortsbild des Landkreises Göynük in Bolu."},
+      "location": {"city": "Bolu", "district": "Göynük"},
+      "type": "Tarihi",
+      "latitude": 40.3983169,
+      "longitude": 30.7866167,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_suluklu_gol_bolu",
+      "name": {"tr": "Sülüklü Göl", "en": "Sülüklü Lake", "fr": "Lac Sülüklü", "de": "Sülüklü-See"},
+      "description": {"tr": "Sülüklü Göl, Bolu'nun Mudurnu ilçesinde ormanlık bir alanda bulunan doğal bir göldür.", "en": "Sülüklü Lake is a natural lake in a wooded area of the Mudurnu district, Bolu.", "fr": "Le lac Sülüklü est un lac naturel situé dans une zone boisée du district de Mudurnu, à Bolu.", "de": "Der Sülüklü-See ist ein natürlicher See in einem Waldgebiet des Landkreises Mudurnu, Bolu."},
+      "location": {"city": "Bolu", "district": "Mudurnu"},
+      "type": "Doğal",
+      "latitude": 40.5221764,
+      "longitude": 30.8745257,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_akkaya_travertenleri",
+      "name": {"tr": "Akkaya Travertenleri", "en": "Akkaya Travertines", "fr": "Travertins d'Akkaya", "de": "Akkaya-Travertine"},
+      "description": {"tr": "Akkaya Travertenleri, Niğde'nin Bor ilçesinde bulunan doğal oluşumlardır.", "en": "The Akkaya Travertines are natural formations in the Bor district of Niğde.", "fr": "Les travertins d'Akkaya sont des formations naturelles du district de Bor, dans la province de Niğde.", "de": "Die Akkaya-Travertine sind natürliche Formationen im Landkreis Bor in der Provinz Niğde."},
+      "location": {"city": "Niğde", "district": "Bor"},
+      "type": "Doğal",
+      "latitude": 37.9187056,
+      "longitude": 34.6086182,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_yerkopru_selalesi_mut",
+      "name": {"tr": "Yerköprü Şelalesi", "en": "Yerköprü Waterfall", "fr": "Cascade de Yerköprü", "de": "Yerköprü-Wasserfall"},
+      "description": {"tr": "Yerköprü Şelalesi, Mersin'in Mut ilçesinde bulunan doğal bir şelaledir.", "en": "Yerköprü Waterfall is a natural waterfall in the Mut district of Mersin.", "fr": "La cascade de Yerköprü est une chute d'eau naturelle du district de Mut, dans la province de Mersin.", "de": "Der Yerköprü-Wasserfall ist ein natürlicher Wasserfall im Landkreis Mut in der Provinz Mersin."},
+      "location": {"city": "Mersin", "district": "Mut"},
+      "type": "Doğal",
+      "latitude": 36.6221,
+      "longitude": 33.4249,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_narlikuyu_mozaik_muzesi",
+      "name": {"tr": "Narlıkuyu Mozaik Müzesi", "en": "Narlıkuyu Mosaic Museum", "fr": "Musée de la mosaïque de Narlıkuyu", "de": "Mosaikmuseum Narlıkuyu"},
+      "description": {"tr": "Narlıkuyu Mozaik Müzesi, Mersin'in Silifke ilçesindeki Narlıkuyu'da bulunan bir müzedir.", "en": "Narlıkuyu Mosaic Museum is a museum in Narlıkuyu, Silifke, Mersin.", "fr": "Le musée de la mosaïque de Narlıkuyu se trouve à Narlıkuyu, dans le district de Silifke, à Mersin.", "de": "Das Mosaikmuseum Narlıkuyu befindet sich in Narlıkuyu im Landkreis Silifke, Mersin."},
+      "location": {"city": "Mersin", "district": "Silifke"},
+      "type": "Kültürel",
+      "latitude": 36.4439866,
+      "longitude": 34.1134899,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_adamkayalar",
+      "name": {"tr": "Adamkayalar", "en": "Adamkayalar", "fr": "Adamkayalar", "de": "Adamkayalar"},
+      "description": {"tr": "Adamkayalar, Mersin'in Silifke ilçesinde kaya kabartmalarının bulunduğu arkeolojik bir alandır.", "en": "Adamkayalar is an archaeological site with rock reliefs in the Silifke district of Mersin.", "fr": "Adamkayalar est un site archéologique avec des reliefs rupestres dans le district de Silifke, à Mersin.", "de": "Adamkayalar ist eine archäologische Stätte mit Felsreliefs im Landkreis Silifke, Mersin."},
+      "location": {"city": "Mersin", "district": "Silifke"},
+      "type": "Arkeolojik",
+      "latitude": 36.4823718,
+      "longitude": 34.1198069,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_mamure_kalesi",
+      "name": {"tr": "Mamure Kalesi", "en": "Mamure Castle", "fr": "Château de Mamure", "de": "Burg Mamure"},
+      "description": {"tr": "Mamure Kalesi, Mersin'in Anamur ilçesinde deniz kıyısında yer alan tarihî bir kaledir.", "en": "Mamure Castle is a historic seaside fortress in the Anamur district of Mersin.", "fr": "Le château de Mamure est une forteresse historique située en bord de mer, dans le district d'Anamur, à Mersin.", "de": "Die Burg Mamure ist eine historische Küstenfestung im Landkreis Anamur, Mersin."},
+      "location": {"city": "Mersin", "district": "Anamur"},
+      "type": "Tarihi",
+      "latitude": 36.0808333,
+      "longitude": 32.8944444,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_uzuncaburc_antik_kenti",
+      "name": {"tr": "Uzuncaburç Antik Kenti", "en": "Uzuncaburç Ancient City", "fr": "Cité antique d'Uzuncaburç", "de": "Antike Stadt Uzuncaburç"},
+      "description": {"tr": "Uzuncaburç Antik Kenti, Mersin'in Silifke ilçesinde bulunan arkeolojik bir alandır.", "en": "Uzuncaburç Ancient City is an archaeological site in the Silifke district of Mersin.", "fr": "La cité antique d'Uzuncaburç est un site archéologique du district de Silifke, à Mersin.", "de": "Die antike Stadt Uzuncaburç ist eine archäologische Stätte im Landkreis Silifke, Mersin."},
+      "location": {"city": "Mersin", "district": "Silifke"},
+      "type": "Arkeolojik",
+      "latitude": 36.5844108,
+      "longitude": 33.9265057,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_yumuktepe_hoyugu",
+      "name": {"tr": "Yumuktepe Höyüğü", "en": "Yumuktepe Mound", "fr": "Tumulus de Yumuktepe", "de": "Siedlungshügel Yumuktepe"},
+      "description": {"tr": "Yumuktepe Höyüğü, Mersin'in Toroslar ilçesinde bulunan arkeolojik bir höyüktür.", "en": "Yumuktepe Mound is an archaeological mound in the Toroslar district of Mersin.", "fr": "Le tumulus de Yumuktepe est un site archéologique du district de Toroslar, à Mersin.", "de": "Der Siedlungshügel Yumuktepe ist eine archäologische Stätte im Landkreis Toroslar, Mersin."},
+      "location": {"city": "Mersin", "district": "Toroslar"},
+      "type": "Arkeolojik",
+      "latitude": 36.8012947,
+      "longitude": 34.6041713,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_arykanda_antik_kenti",
+      "name": {"tr": "Finike Arykanda Antik Kenti", "en": "Arykanda Ancient City", "fr": "Cité antique d'Arykanda", "de": "Antike Stadt Arykanda"},
+      "description": {"tr": "Arykanda Antik Kenti, Antalya'nın Finike ilçesinde bulunan arkeolojik bir alandır.", "en": "Arykanda Ancient City is an archaeological site in the Finike district of Antalya.", "fr": "La cité antique d'Arykanda est un site archéologique du district de Finike, à Antalya.", "de": "Die antike Stadt Arykanda ist eine archäologische Stätte im Landkreis Finike, Antalya."},
+      "location": {"city": "Antalya", "district": "Finike"},
+      "type": "Arkeolojik",
+      "latitude": 36.5139534,
+      "longitude": 30.0583565,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_olympos_teleferik",
+      "name": {"tr": "Olympos Teleferik", "en": "Olympos Cable Car", "fr": "Téléphérique d'Olympos", "de": "Olympos-Seilbahn"},
+      "description": {"tr": "Olympos Teleferik, Antalya'nın Kemer ilçesinde Tahtalı Dağı'na ulaşım sağlayan bir teleferik hattıdır.", "en": "Olympos Cable Car is a cableway to Mount Tahtalı in the Kemer district of Antalya.", "fr": "Le téléphérique d'Olympos dessert le mont Tahtalı, dans le district de Kemer, à Antalya.", "de": "Die Olympos-Seilbahn führt auf den Tahtalı-Berg im Landkreis Kemer, Antalya."},
+      "location": {"city": "Antalya", "district": "Kemer"},
+      "type": "Doğal",
+      "latitude": 36.5408838,
+      "longitude": 30.4868668,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_gelidonya_feneri",
+      "name": {"tr": "Gelidonya Feneri", "en": "Gelidonya Lighthouse", "fr": "Phare de Gelidonya", "de": "Leuchtturm von Gelidonya"},
+      "description": {"tr": "Gelidonya Feneri, Antalya'nın Kumluca ilçesindeki Gelidonya Burnu'nda bulunan tarihî bir deniz feneridir.", "en": "Gelidonya Lighthouse is a historic lighthouse on Cape Gelidonya in the Kumluca district of Antalya.", "fr": "Le phare de Gelidonya est un phare historique du cap Gelidonya, dans le district de Kumluca, à Antalya.", "de": "Der Leuchtturm von Gelidonya ist ein historischer Leuchtturm am Kap Gelidonya im Landkreis Kumluca, Antalya."},
+      "location": {"city": "Antalya", "district": "Kumluca"},
+      "type": "Tarihi",
+      "latitude": 36.2191712,
+      "longitude": 30.4096882,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_koprulu_kanyon_milli_parki",
+      "name": {"tr": "Köprülü Kanyon Milli Parkı", "en": "Köprülü Canyon National Park", "fr": "Parc national du canyon de Köprülü", "de": "Köprülü-Canyon-Nationalpark"},
+      "description": {"tr": "Köprülü Kanyon Milli Parkı, Antalya'nın Manavgat ilçesinde yer alan koruma altındaki doğal bir alandır.", "en": "Köprülü Canyon National Park is a protected natural area in the Manavgat district of Antalya.", "fr": "Le parc national du canyon de Köprülü est une aire naturelle protégée du district de Manavgat, à Antalya.", "de": "Der Köprülü-Canyon-Nationalpark ist ein geschütztes Naturgebiet im Landkreis Manavgat, Antalya."},
+      "location": {"city": "Antalya", "district": "Manavgat"},
+      "type": "Doğal",
+      "latitude": 37.1876855,
+      "longitude": 31.1804494,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_tazi_kanyonu",
+      "name": {"tr": "Tazı Kanyonu", "en": "Tazı Canyon", "fr": "Canyon de Tazı", "de": "Tazı-Schlucht"},
+      "description": {"tr": "Tazı Kanyonu, Antalya'nın Manavgat ilçesinde bulunan doğal bir kanyondur.", "en": "Tazı Canyon is a natural gorge in the Manavgat district of Antalya.", "fr": "Le canyon de Tazı est une gorge naturelle du district de Manavgat, à Antalya.", "de": "Die Tazı-Schlucht ist eine natürliche Schlucht im Landkreis Manavgat, Antalya."},
+      "location": {"city": "Antalya", "district": "Manavgat"},
+      "type": "Doğal",
+      "latitude": 37.2365628,
+      "longitude": 31.1756795,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_altinbesik_magarasi",
+      "name": {"tr": "Altınbeşik Mağarası", "en": "Altınbeşik Cave", "fr": "Grotte d'Altınbeşik", "de": "Altınbeşik-Höhle"},
+      "description": {"tr": "Altınbeşik Mağarası, Antalya'nın İbradı ilçesinde bulunan doğal bir mağaradır.", "en": "Altınbeşik Cave is a natural cave in the İbradı district of Antalya.", "fr": "La grotte d'Altınbeşik est une grotte naturelle du district d'İbradı, à Antalya.", "de": "Die Altınbeşik-Höhle ist eine natürliche Höhle im Landkreis İbradı, Antalya."},
+      "location": {"city": "Antalya", "district": "İbradı"},
+      "type": "Doğal",
+      "latitude": 37.0378544,
+      "longitude": 31.633354,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_beskonak_kanyonu",
+      "name": {"tr": "Beşkonak Kanyonu", "en": "Beşkonak Canyon", "fr": "Canyon de Beşkonak", "de": "Beşkonak-Schlucht"},
+      "description": {"tr": "Beşkonak Kanyonu, Antalya'nın Manavgat ilçesinde yer alan doğal bir kanyon ve akarsu alanıdır.", "en": "Beşkonak Canyon is a natural gorge and river area in the Manavgat district of Antalya.", "fr": "Le canyon de Beşkonak est une gorge naturelle et une zone fluviale du district de Manavgat, à Antalya.", "de": "Die Beşkonak-Schlucht ist eine natürliche Schlucht und Flusslandschaft im Landkreis Manavgat, Antalya."},
+      "location": {"city": "Antalya", "district": "Manavgat"},
+      "type": "Doğal",
+      "latitude": 37.1443279,
+      "longitude": 31.1993161,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_incekum_tabiat_parki",
+      "name": {"tr": "İncekum Tabiat Parkı", "en": "İncekum Nature Park", "fr": "Parc naturel d'İncekum", "de": "Naturpark İncekum"},
+      "description": {"tr": "İncekum Tabiat Parkı, Antalya'nın Alanya ilçesinde bulunan koruma altındaki bir doğa alanıdır.", "en": "İncekum Nature Park is a protected natural area in the Alanya district of Antalya.", "fr": "Le parc naturel d'İncekum est une aire naturelle protégée du district d'Alanya, à Antalya.", "de": "Der Naturpark İncekum ist ein geschütztes Naturgebiet im Landkreis Alanya, Antalya."},
+      "location": {"city": "Antalya", "district": "Alanya"},
+      "type": "Doğal",
+      "latitude": 36.6272222,
+      "longitude": 31.7572222,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_kocain_magarasi",
+      "name": {"tr": "Kocain Mağarası", "en": "Kocain Cave", "fr": "Grotte de Kocain", "de": "Kocain-Höhle"},
+      "description": {"tr": "Kocain Mağarası, Antalya'nın Döşemealtı ilçesinde bulunan doğal bir mağaradır.", "en": "Kocain Cave is a natural cave in the Döşemealtı district of Antalya.", "fr": "La grotte de Kocain est une grotte naturelle du district de Döşemealtı, à Antalya.", "de": "Die Kocain-Höhle ist eine natürliche Höhle im Landkreis Döşemealtı, Antalya."},
+      "location": {"city": "Antalya", "district": "Döşemealtı"},
+      "type": "Doğal",
+      "latitude": 37.2325328,
+      "longitude": 30.7113958,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_arasta_carsisi_edirne",
+      "name": {"tr": "Arasta Çarşısı", "en": "Arasta Bazaar", "fr": "Bazar Arasta", "de": "Arasta-Basar"},
+      "description": {"tr": "Arasta Çarşısı, Edirne merkezinde bulunan tarihî bir çarşıdır.", "en": "Arasta Bazaar is a historic market in central Edirne.", "fr": "Le bazar Arasta est un marché historique au centre d'Edirne.", "de": "Der Arasta-Basar ist ein historischer Markt im Zentrum von Edirne."},
+      "location": {"city": "Edirne", "district": "Merkez"},
+      "type": "Tarihi",
+      "latitude": 41.6777446,
+      "longitude": 26.5584406,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_meric_koprusu",
+      "name": {"tr": "Meriç Köprüsü", "en": "Meriç Bridge", "fr": "Pont de Meriç", "de": "Meriç-Brücke"},
+      "description": {"tr": "Meriç Köprüsü, Edirne'de Meriç Nehri üzerinde bulunan tarihî bir köprüdür.", "en": "Meriç Bridge is a historic bridge over the Meriç River in Edirne.", "fr": "Le pont de Meriç est un pont historique qui traverse le fleuve Meriç à Edirne.", "de": "Die Meriç-Brücke ist eine historische Brücke über den Fluss Meriç in Edirne."},
+      "location": {"city": "Edirne", "district": "Merkez"},
+      "type": "Tarihi",
+      "latitude": 41.663416,
+      "longitude": 26.55212,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_igneada_feneri",
+      "name": {"tr": "İğneada Feneri", "en": "İğneada Lighthouse", "fr": "Phare d'İğneada", "de": "Leuchtturm von İğneada"},
+      "description": {"tr": "İğneada Feneri, Kırklareli'nin Demirköy ilçesinde Karadeniz kıyısında bulunan bir deniz feneridir.", "en": "İğneada Lighthouse stands on the Black Sea coast in the Demirköy district of Kırklareli.", "fr": "Le phare d'İğneada se trouve sur la côte de la mer Noire, dans le district de Demirköy, à Kırklareli.", "de": "Der Leuchtturm von İğneada liegt an der Schwarzmeerküste im Landkreis Demirköy, Kırklareli."},
+      "location": {"city": "Kırklareli", "district": "Demirköy"},
+      "type": "Tarihi",
+      "latitude": 41.8761111,
+      "longitude": 27.9861111,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_vize_antik_tiyatrosu",
+      "name": {"tr": "Vize Antik Tiyatrosu", "en": "Vize Ancient Theatre", "fr": "Théâtre antique de Vize", "de": "Antikes Theater von Vize"},
+      "description": {"tr": "Vize Antik Tiyatrosu, Kırklareli'nin Vize ilçesinde bulunan arkeolojik bir yapıdır.", "en": "Vize Ancient Theatre is an archaeological monument in the Vize district of Kırklareli.", "fr": "Le théâtre antique de Vize est un monument archéologique du district de Vize, à Kırklareli.", "de": "Das antike Theater von Vize ist ein archäologisches Bauwerk im Landkreis Vize, Kırklareli."},
+      "location": {"city": "Kırklareli", "district": "Vize"},
+      "type": "Arkeolojik",
+      "latitude": 41.573787,
+      "longitude": 27.76936,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_kastro_koyu",
+      "name": {"tr": "Kastro Koyu (Çamlıköy)", "en": "Kastro Bay (Çamlıköy)", "fr": "Baie de Kastro (Çamlıköy)", "de": "Bucht von Kastro (Çamlıköy)"},
+      "description": {"tr": "Kastro Koyu, Tekirdağ'ın Saray ilçesinde, Çamlıköy Tabiat Parkı kıyısında bulunan bir koydur.", "en": "Kastro Bay is a coastal inlet by Çamlıköy Nature Park in the Saray district of Tekirdağ.", "fr": "La baie de Kastro borde le parc naturel de Çamlıköy, dans le district de Saray, à Tekirdağ.", "de": "Die Bucht von Kastro liegt am Naturpark Çamlıköy im Landkreis Saray, Tekirdağ."},
+      "location": {"city": "Tekirdağ", "district": "Saray"},
+      "type": "Doğal",
+      "latitude": 41.64,
+      "longitude": 28.08,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_sile_feneri",
+      "name": {"tr": "Şile Feneri", "en": "Şile Lighthouse", "fr": "Phare de Şile", "de": "Leuchtturm von Şile"},
+      "description": {"tr": "Şile Feneri, İstanbul'un Şile ilçesindeki Karadeniz kıyısında bulunan tarihî bir deniz feneridir.", "en": "Şile Lighthouse is a historic lighthouse on the Black Sea coast of Şile, Istanbul.", "fr": "Le phare de Şile est un phare historique situé sur la côte de la mer Noire, dans le district de Şile à Istanbul.", "de": "Der Leuchtturm von Şile ist ein historischer Leuchtturm an der Schwarzmeerküste im Istanbuler Landkreis Şile."},
+      "location": {"city": "İstanbul", "district": "Şile"},
+      "type": "Tarihi",
+      "latitude": 41.1779722,
+      "longitude": 29.6165,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_anadolu_kavagi",
+      "name": {"tr": "Anadolu Kavağı", "en": "Anadolu Kavağı", "fr": "Anadolu Kavağı", "de": "Anadolu Kavağı"},
+      "description": {"tr": "Anadolu Kavağı, İstanbul'un Beykoz ilçesinde Boğaz'ın Karadeniz'e açıldığı noktaya yakın bir kıyı mahallesidir.", "en": "Anadolu Kavağı is a waterfront neighbourhood in Beykoz, near the Black Sea entrance of the Bosphorus.", "fr": "Anadolu Kavağı est un quartier côtier de Beykoz, près de l'entrée du Bosphore dans la mer Noire.", "de": "Anadolu Kavağı ist ein Küstenviertel im Istanbuler Bezirk Beykoz nahe der Öffnung des Bosporus zum Schwarzen Meer."},
+      "location": {"city": "İstanbul", "district": "Beykoz"},
+      "type": "Kültürel",
+      "latitude": 41.17391,
+      "longitude": 29.0886888,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_yoros_kalesi",
+      "name": {"tr": "Yoros Kalesi", "en": "Yoros Castle", "fr": "Château de Yoros", "de": "Burg Yoros"},
+      "description": {"tr": "Yoros Kalesi, İstanbul'un Beykoz ilçesinde, Anadolu Kavağı yakınlarında bulunan tarihî bir kaledir.", "en": "Yoros Castle is a historic fortress near Anadolu Kavağı in the Beykoz district of Istanbul.", "fr": "Le château de Yoros est une forteresse historique près d'Anadolu Kavağı, dans le district de Beykoz à Istanbul.", "de": "Die Burg Yoros ist eine historische Festung nahe Anadolu Kavağı im Istanbuler Bezirk Beykoz."},
+      "location": {"city": "İstanbul", "district": "Beykoz"},
+      "type": "Tarihi",
+      "latitude": 41.1785861,
+      "longitude": 29.0948954,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_incegiz_magaralari",
+      "name": {"tr": "Çatalca İnceğiz Mağaraları", "en": "İnceğiz Caves, Çatalca", "fr": "Grottes d'İnceğiz à Çatalca", "de": "İnceğiz-Höhlen in Çatalca"},
+      "description": {"tr": "İnceğiz Mağaraları, İstanbul'un Çatalca ilçesinde bulunan arkeolojik kaya yerleşimleridir.", "en": "The İnceğiz Caves are archaeological rock-cut dwellings in the Çatalca district of Istanbul.", "fr": "Les grottes d'İnceğiz sont des habitats rupestres archéologiques du district de Çatalca, à Istanbul.", "de": "Die İnceğiz-Höhlen sind archäologische Felswohnungen im Istanbuler Landkreis Çatalca."},
+      "location": {"city": "İstanbul", "district": "Çatalca"},
+      "type": "Arkeolojik",
+      "latitude": 41.1814432,
+      "longitude": 28.4041778,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_maden_deresi_sakarya",
+      "name": {"tr": "Maden Deresi", "en": "Maden Stream", "fr": "Ruisseau de Maden", "de": "Maden-Bach"},
+      "description": {"tr": "Maden Deresi, Sakarya'nın Karasu ilçesinde dere yatağı ve çevresindeki doğal alanla bilinen bir gezi noktasıdır.", "en": "Maden Stream is a nature destination along a stream in the Karasu district of Sakarya.", "fr": "Le ruisseau de Maden et ses environs constituent un site naturel du district de Karasu, à Sakarya.", "de": "Der Maden-Bach und seine Umgebung sind ein Naturausflugsziel im Landkreis Karasu, Sakarya."},
+      "location": {"city": "Sakarya", "district": "Karasu"},
+      "type": "Doğal",
+      "latitude": 41.053342,
+      "longitude": 30.788077,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_poyrazlar_golu",
+      "name": {"tr": "Poyrazlar Gölü", "en": "Poyrazlar Lake", "fr": "Lac de Poyrazlar", "de": "Poyrazlar-See"},
+      "description": {"tr": "Poyrazlar Gölü, Sakarya'nın Adapazarı ilçesinde bulunan doğal bir göldür.", "en": "Poyrazlar Lake is a natural lake in the Adapazarı district of Sakarya.", "fr": "Le lac de Poyrazlar est un lac naturel du district d'Adapazarı, à Sakarya.", "de": "Der Poyrazlar-See ist ein natürlicher See im Landkreis Adapazarı, Sakarya."},
+      "location": {"city": "Sakarya", "district": "Adapazarı"},
+      "type": "Doğal",
+      "latitude": 40.8396849,
+      "longitude": 30.465968,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_akyaka_azmak_nehri",
+      "name": {"tr": "Akyaka Azmak Nehri", "en": "Akyaka Azmak River", "fr": "Rivière Azmak d'Akyaka", "de": "Azmak-Fluss von Akyaka"},
+      "description": {"tr": "Akyaka Azmak Nehri, Muğla'nın Ula ilçesinde Akyaka kıyısından geçen doğal bir su yoludur.", "en": "The Akyaka Azmak River is a natural waterway by the coast of Akyaka in the Ula district of Muğla.", "fr": "La rivière Azmak d'Akyaka est un cours d'eau naturel situé près du littoral d'Akyaka, dans le district d'Ula, à Muğla.", "de": "Der Azmak-Fluss von Akyaka ist ein natürlicher Wasserlauf an der Küste von Akyaka im Landkreis Ula, Muğla."},
+      "location": {"city": "Muğla", "district": "Ula"},
+      "type": "Doğal",
+      "latitude": 37.054,
+      "longitude": 28.325,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_sedir_adasi",
+      "name": {"tr": "Sedir Adası (Kleopatra Adası)", "en": "Sedir Island (Cleopatra Island)", "fr": "Île de Sedir (île de Cléopâtre)", "de": "Insel Sedir (Kleopatra-Insel)"},
+      "description": {"tr": "Sedir Adası, Muğla'nın Marmaris ilçesinde bulunan bir adadır; Kleopatra Adası adıyla da anılır.", "en": "Sedir Island is an island in the Marmaris district of Muğla, also known as Cleopatra Island.", "fr": "L'île de Sedir se trouve dans le district de Marmaris, à Muğla, et est également appelée île de Cléopâtre.", "de": "Die Insel Sedir liegt im Landkreis Marmaris in Muğla und ist auch als Kleopatra-Insel bekannt."},
+      "location": {"city": "Muğla", "district": "Marmaris"},
+      "type": "Doğal",
+      "latitude": 36.9933237,
+      "longitude": 28.2021898,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_vezirsuyu_tabiat_parki",
+      "name": {"tr": "Vezirsuyu Tabiat Parkı", "en": "Vezirsuyu Nature Park", "fr": "Parc naturel de Vezirsuyu", "de": "Naturpark Vezirsuyu"},
+      "description": {"tr": "Vezirsuyu Tabiat Parkı, Samsun'un Vezirköprü ilçesinde bulunan koruma altındaki bir doğa alanıdır.", "en": "Vezirsuyu Nature Park is a protected natural area in the Vezirköprü district of Samsun.", "fr": "Le parc naturel de Vezirsuyu est une aire naturelle protégée du district de Vezirköprü, à Samsun.", "de": "Der Naturpark Vezirsuyu ist ein geschütztes Naturgebiet im Landkreis Vezirköprü, Samsun."},
+      "location": {"city": "Samsun", "district": "Vezirköprü"},
+      "type": "Doğal",
+      "latitude": 41.215,
+      "longitude": 35.3105556,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_akdag_tabiat_parki_samsun",
+      "name": {"tr": "Akdağ Tabiat Parkı", "en": "Akdağ Nature Park", "fr": "Parc naturel d'Akdağ", "de": "Naturpark Akdağ"},
+      "description": {"tr": "Akdağ Tabiat Parkı, Samsun'un Ladik ilçesinde bulunan koruma altındaki bir doğa alanıdır.", "en": "Akdağ Nature Park is a protected natural area in the Ladik district of Samsun.", "fr": "Le parc naturel d'Akdağ est une aire naturelle protégée du district de Ladik, à Samsun.", "de": "Der Naturpark Akdağ ist ein geschütztes Naturgebiet im Landkreis Ladik, Samsun."},
+      "location": {"city": "Samsun", "district": "Ladik"},
+      "type": "Doğal",
+      "latitude": 40.872,
+      "longitude": 35.884,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_cambasi_yaylasi",
+      "name": {"tr": "Çambaşı Yaylası", "en": "Çambaşı Plateau", "fr": "Plateau de Çambaşı", "de": "Hochebene Çambaşı"},
+      "description": {"tr": "Çambaşı Yaylası, Ordu'nun Kabadüz ilçesinde bulunan bir yayla yerleşimidir.", "en": "Çambaşı Plateau is a highland settlement in the Kabadüz district of Ordu.", "fr": "Le plateau de Çambaşı est un site d'altitude du district de Kabadüz, à Ordu.", "de": "Die Hochebene Çambaşı ist ein Hochlandort im Landkreis Kabadüz, Ordu."},
+      "location": {"city": "Ordu", "district": "Kabadüz"},
+      "type": "Doğal",
+      "latitude": 40.6269312,
+      "longitude": 37.9629706,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_kumbet_yaylasi",
+      "name": {"tr": "Kümbet Yaylası", "en": "Kümbet Plateau", "fr": "Plateau de Kümbet", "de": "Hochebene Kümbet"},
+      "description": {"tr": "Kümbet Yaylası, Giresun'un Dereli ilçesinde bulunan bir yayla yerleşimidir.", "en": "Kümbet Plateau is a highland settlement in the Dereli district of Giresun.", "fr": "Le plateau de Kümbet est un site d'altitude du district de Dereli, à Giresun.", "de": "Die Hochebene Kümbet ist ein Hochlandort im Landkreis Dereli, Giresun."},
+      "location": {"city": "Giresun", "district": "Dereli"},
+      "type": "Doğal",
+      "latitude": 40.584,
+      "longitude": 38.296,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_savsat_karagol",
+      "name": {"tr": "Şavşat Karagöl", "en": "Şavşat Karagöl Lake", "fr": "Lac Karagöl de Şavşat", "de": "Şavşat-Karagöl-See"},
+      "description": {"tr": "Şavşat Karagöl, Artvin'in Şavşat ilçesinde bulunan doğal bir göldür.", "en": "Şavşat Karagöl is a natural lake in the Şavşat district of Artvin.", "fr": "Le lac Karagöl de Şavşat est un lac naturel du district de Şavşat, à Artvin.", "de": "Der Şavşat-Karagöl-See ist ein natürlicher See im Landkreis Şavşat, Artvin."},
+      "location": {"city": "Artvin", "district": "Şavşat"},
+      "type": "Doğal",
+      "latitude": 41.267,
+      "longitude": 42.453,
+      "createdAt": "2026-10-22T07:30:00.000Z"
+    },
+    {
+      "id": "poi_borcka_karagol",
+      "name": {"tr": "Borçka Karagöl", "en": "Borçka Karagöl Lake", "fr": "Lac Karagöl de Borçka", "de": "Borçka-Karagöl-See"},
+      "description": {"tr": "Borçka Karagöl, Artvin'in Borçka ilçesinde bulunan doğal bir göldür.", "en": "Borçka Karagöl is a natural lake in the Borçka district of Artvin.", "fr": "Le lac Karagöl de Borçka est un lac naturel du district de Borçka, à Artvin.", "de": "Der Borçka-Karagöl-See ist ein natürlicher See im Landkreis Borçka, Artvin."},
+      "location": {"city": "Artvin", "district": "Borçka"},
+      "type": "Doğal",
+      "latitude": 41.3868086,
+      "longitude": 41.8553091,
+      "createdAt": "2026-10-22T07:30:00.000Z"
     }
   ]
 }
