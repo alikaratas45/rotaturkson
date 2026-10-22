@@ -1,3 +1,27 @@
 {
-  "pois": []
+  "pois": [
+    {
+      "id": "poi_demo_pera_muzesi",
+      "name": {
+        "tr": "Pera Müzesi",
+        "en": "Pera Museum",
+        "fr": "Musée Pera",
+        "de": "Pera-Museum"
+      },
+      "description": {
+        "tr": "İstanbul'un Beyoğlu ilçesindeki Pera Müzesi, sanat ve kültür sergilerine ev sahipliği yapan bir müzedir. Ziyaret etmeden önce güncel sergi ve ziyaret saatlerini kontrol edin.",
+        "en": "Pera Museum in Istanbul's Beyoğlu district hosts art and cultural exhibitions. Check current exhibitions and visiting hours before your visit.",
+        "fr": "Le musée Pera, situé dans le quartier de Beyoğlu à Istanbul, accueille des expositions d'art et de culture. Vérifiez les expositions et horaires avant votre visite.",
+        "de": "Das Pera-Museum im Istanbuler Stadtteil Beyoğlu zeigt Kunst- und Kulturausstellungen. Bitte prüfen Sie vor Ihrem Besuch die aktuellen Ausstellungen und Öffnungszeiten."
+      },
+      "location": {
+        "city": "İstanbul",
+        "district": "Beyoğlu"
+      },
+      "type": "Kültürel",
+      "latitude": 41.0319,
+      "longitude": 28.9753,
+      "createdAt": "2026-10-22T06:25:00.000Z"
+    }
+  ]
 }

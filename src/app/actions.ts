@@ -88,11 +88,28 @@ export async function getAllPois(): Promise<POI[]> {
         const snapshot = await getDocs(poisCol);
         
         if (!snapshot.empty) {
-            const pois = snapshot.docs.map(doc => ({
-                ...doc.data(),
-                id: doc.id
-            }));
-            return serializeData(pois) as POI[];
+            const poisById = new Map<string, POI>();
+            for (const poiDoc of snapshot.docs) {
+                poisById.set(poiDoc.id, {
+                    ...poiDoc.data(),
+                    id: poiDoc.id
+                } as POI);
+            }
+            const existingNames = new Set(
+                Array.from(poisById.values())
+                    .flatMap(poi => Object.values(poi.name || {}))
+                    .filter((name): name is string => typeof name === 'string' && name.trim().length > 0)
+                    .map(name => name.trim().toLocaleLowerCase('tr-TR'))
+            );
+            for (const poi of staticPoisData2.pois as POI[]) {
+                const names = Object.values(poi.name || {})
+                    .filter((name): name is string => typeof name === 'string' && name.trim().length > 0)
+                    .map(name => name.trim().toLocaleLowerCase('tr-TR'));
+                if (poisById.has(poi.id) || names.some(name => existingNames.has(name))) continue;
+                poisById.set(poi.id, poi);
+                names.forEach(name => existingNames.add(name));
+            }
+            return serializeData(Array.from(poisById.values())) as POI[];
         }
         
         const combinedLocal = [
