@@ -22,6 +22,52 @@
       "latitude": 41.0319,
       "longitude": 28.9753,
       "createdAt": "2026-10-22T06:25:00.000Z"
+    },
+    {
+      "id": "poi_demo_amasya_kalesi",
+      "name": {
+        "tr": "Amasya Kalesi",
+        "en": "Amasya Castle",
+        "fr": "Château d'Amasya",
+        "de": "Burg von Amasya"
+      },
+      "description": {
+        "tr": "Harşena Dağı üzerinde, Yeşilırmak Vadisi'ne hakim konumda yer alan Amasya Kalesi, şehrin tarihi simgelerindendir.",
+        "en": "Amasya Castle is a historic fortress on Mount Harşena, overlooking the Yeşilırmak River valley.",
+        "fr": "Le château d'Amasya est une forteresse historique située sur le mont Harşena, qui domine la vallée du fleuve Yeşilırmak.",
+        "de": "Die Burg von Amasya ist eine historische Festung auf dem Berg Harşena mit Blick auf das Tal des Flusses Yeşilırmak."
+      },
+      "location": {
+        "city": "Amasya",
+        "district": "Merkez"
+      },
+      "type": "Tarihi",
+      "latitude": 40.6552114,
+      "longitude": 35.8274515,
+      "createdAt": "2026-10-22T06:40:00.000Z"
+    },
+    {
+      "id": "poi_demo_alahan_manastiri",
+      "name": {
+        "tr": "Alahan Manastırı",
+        "en": "Alahan Monastery",
+        "fr": "Monastère d'Alahan",
+        "de": "Alahan-Kloster"
+      },
+      "description": {
+        "tr": "Mersin'in Mut ilçesinde, Toros Dağları'nın yamacında yer alan Alahan Manastırı, erken Hristiyanlık dönemine ait tarihi bir manastır kompleksidir.",
+        "en": "Alahan Monastery is a historic early Christian monastic complex on the slopes of the Taurus Mountains in Mut, Mersin.",
+        "fr": "Le monastère d'Alahan est un ensemble monastique historique paléochrétien situé sur les pentes du Taurus, à Mut, dans la province de Mersin.",
+        "de": "Das Alahan-Kloster ist eine historische frühchristliche Klosteranlage an den Hängen des Taurusgebirges in Mut, Provinz Mersin."
+      },
+      "location": {
+        "city": "Mersin",
+        "district": "Mut"
+      },
+      "type": "Arkeolojik",
+      "latitude": 36.7911847,
+      "longitude": 33.3520436,
+      "createdAt": "2026-10-22T06:40:00.000Z"
     }
   ]
 }
