@@ -14,6 +14,7 @@ import { Suspense, useState, useEffect, use } from 'react';
 import { AdminViewActivator } from "@/components/layout/AdminViewActivator";
 import { ProximityAlertManager } from "@/components/rotaturk/ProximityAlertManager";
 import { MessageNotificationListener } from "@/components/rotaturk/MessageNotificationListener";
+import { OnlinePresence } from "@/components/rotaturk/OnlinePresence";
 import { CookieConsent } from "@/components/layout/CookieConsent";
 import { NavigationGuard } from "@/components/layout/NavigationGuard";
 
@@ -88,6 +89,7 @@ export default function LocaleLayout({
                   </Suspense>
                   <ProximityAlertManager />
                   <MessageNotificationListener />
+                  <OnlinePresence />
                   <CookieConsent />
                   <div className="flex flex-col min-h-screen">
                     <Header />

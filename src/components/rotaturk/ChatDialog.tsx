@@ -7,10 +7,11 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/u
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { Send, Users, MessageSquare } from 'lucide-react';
+import { Send, Users, MessageSquare, Circle } from 'lucide-react';
 import type { ActiveTraveler, ChatMessage } from '@/lib/types';
 import { signInAnonymously } from 'firebase/auth';
 import { useTranslations } from 'next-intl';
+import { useToast } from '@/hooks/use-toast';
 
 interface ChatDialogProps {
   targetTraveler: ActiveTraveler | null;
@@ -22,7 +23,9 @@ export function ChatDialog({ targetTraveler, onClose }: ChatDialogProps) {
   const auth = useAuth();
   const db = useFirestore();
   const t = useTranslations('Chat');
+  const { toast } = useToast();
   const [message, setMessage] = useState('');
+  const [isSending, setIsSending] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   // Oda ID'sini her iki kullanıcı ID'sine göre sıralayıp oluşturuyoruz
@@ -51,56 +54,72 @@ export function ChatDialog({ targetTraveler, onClose }: ChatDialogProps) {
 
   const handleSendMessage = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!message.trim() || !db || !targetTraveler || !roomId) return;
+    const text = message.trim();
+    if (!text || !db || !targetTraveler || isSending) return;
 
-    let currentUser = user;
-    if (!currentUser) {
-      const cred = await signInAnonymously(auth);
-      currentUser = cred.user;
-    }
-
-    const text = message;
-    setMessage('');
-
+    setIsSending(true);
     try {
-      const messagesCol = collection(db, 'chats', roomId, 'messages');
+      let currentUser = user;
+      if (!currentUser) {
+        const cred = await signInAnonymously(auth);
+        currentUser = cred.user;
+      }
+      if (currentUser.uid === targetTraveler.userId) return;
+
+      const participants = [currentUser.uid, targetTraveler.userId].sort();
+      const currentRoomId = `${participants[0]}_${participants[1]}`;
+      const roomRef = doc(db, 'chats', currentRoomId);
+      await setDoc(
+        roomRef,
+        {
+          participants,
+          updatedAt: serverTimestamp(),
+        },
+        { merge: true }
+      );
+
+      const messagesCol = collection(db, 'chats', currentRoomId, 'messages');
       await addDoc(messagesCol, {
         senderId: currentUser.uid,
-        senderName: currentUser.displayName || 'Gezgin',
+        senderName: currentUser.displayName || `Gezgin ${currentUser.uid.slice(-4).toUpperCase()}`,
         recipientId: targetTraveler.userId,
         text: text,
         timestamp: serverTimestamp(),
       });
       
-      const roomRef = doc(db, 'chats', roomId);
       await setDoc(roomRef, {
         lastMessage: text,
         lastMessageAt: serverTimestamp(),
-        participants: [currentUser.uid, targetTraveler.userId]
       }, { merge: true });
-
+      setMessage('');
     } catch (err) {
-      console.error("Message send error:", err);
+      console.error('Message send error:', err);
+      toast({ variant: 'destructive', title: t('sendError') });
+    } finally {
+      setIsSending(false);
     }
   };
 
   return (
     <Dialog open={!!targetTraveler} onOpenChange={(open) => !open && onClose()}>
-      <DialogContent className="sm:max-w-[425px] h-[500px] flex flex-col p-0">
-        <DialogHeader className="p-6 border-b">
+      <DialogContent className="flex h-[min(620px,90vh)] flex-col gap-0 overflow-hidden border-0 p-0 shadow-2xl sm:max-w-[440px] sm:rounded-3xl">
+        <DialogHeader className="border-b bg-gradient-to-r from-primary/10 via-background to-emerald-500/10 p-5 pr-12">
           <DialogTitle className="flex items-center gap-2">
-            <div className="bg-blue-100 p-2 rounded-full text-blue-600">
-               <Users size={18} />
+            <div className="relative rounded-full bg-gradient-to-br from-primary to-emerald-500 p-2.5 text-white shadow-md">
+               <Users size={19} />
+               <Circle className="absolute bottom-0 right-0 h-3 w-3 fill-emerald-500 text-white" />
             </div>
             <span>{t('chatWith', { name: targetTraveler?.displayName })}</span>
           </DialogTitle>
         </DialogHeader>
         
-        <ScrollArea className="flex-grow p-4">
-          <div className="space-y-4">
+        <ScrollArea className="min-h-0 flex-grow bg-gradient-to-b from-background to-muted/30 p-4">
+          <div className="space-y-4 py-2">
             {messages?.length === 0 && (
-              <div className="text-center py-10 text-muted-foreground">
-                <MessageSquare className="mx-auto mb-2 opacity-20" size={48} />
+              <div className="py-14 text-center text-muted-foreground">
+                <span className="mx-auto mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary">
+                  <MessageSquare size={26} />
+                </span>
                 <p className="text-sm">{t('noMessages')}</p>
               </div>
             )}
@@ -109,10 +128,10 @@ export function ChatDialog({ targetTraveler, onClose }: ChatDialogProps) {
                 key={msg.id} 
                 className={`flex flex-col ${msg.senderId === user?.uid ? 'items-end' : 'items-start'}`}
               >
-                <div className={`px-4 py-2 rounded-2xl max-w-[80%] text-sm ${
+                <div className={`max-w-[82%] rounded-2xl px-4 py-2.5 text-sm shadow-sm ${
                   msg.senderId === user?.uid 
-                    ? 'bg-primary text-primary-foreground rounded-tr-none' 
-                    : 'bg-muted text-foreground rounded-tl-none'
+                    ? 'rounded-tr-md bg-primary text-primary-foreground'
+                    : 'rounded-tl-md border bg-card text-foreground'
                 }`}>
                   {msg.text}
                 </div>
@@ -125,14 +144,15 @@ export function ChatDialog({ targetTraveler, onClose }: ChatDialogProps) {
           </div>
         </ScrollArea>
 
-        <form onSubmit={handleSendMessage} className="p-4 border-t flex gap-2">
+        <form onSubmit={handleSendMessage} className="flex gap-2 border-t bg-background p-4">
           <Input 
             placeholder={t('placeholder')}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            className="flex-grow"
+            maxLength={1000}
+            className="h-11 flex-grow rounded-full bg-muted/50 px-4"
           />
-          <Button type="submit" size="icon" disabled={!message.trim()}>
+          <Button type="submit" size="icon" className="h-11 w-11 rounded-full shadow-md" disabled={!message.trim() || isSending}>
             <Send size={18} />
           </Button>
         </form>

@@ -14,6 +14,7 @@ import { EmbeddedMap } from '@/components/map';
 import { getAllPois } from '@/app/actions';
 import { Button } from '@/components/ui/button';
 import { Trophy } from 'lucide-react';
+import { CommunityHub } from '@/components/rotaturk/CommunityHub';
 
 export default function Home() {
   const t = useTranslations('HomePage');
@@ -91,7 +92,7 @@ export default function Home() {
                 <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground font-medium">
                     {t('subtitle')}
                 </p>
-                <div className="mt-8 flex justify-center">
+                <div className="mt-8 flex flex-wrap justify-center gap-3">
                     <Button 
                         onClick={() => setIsLeaderboardOpen(true)}
                         variant="outline"
@@ -100,6 +101,7 @@ export default function Home() {
                         <Trophy className="mr-2 h-5 w-5 text-amber-500" />
                         {t_leaderboard('button')}
                     </Button>
+                    <CommunityHub onChat={setSelectedTraveler} />
                 </div>
             </div>
         </div>

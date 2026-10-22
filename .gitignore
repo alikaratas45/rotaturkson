@@ -42,4 +42,5 @@ next-env.d.ts
 apphosting.yaml
 firebase.json
 firestore.rules
+!/firestore.rules
 firestore.indexes.json

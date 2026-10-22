@@ -3,7 +3,7 @@
 
 import { Button } from '@/components/ui/button';
 import { useTranslations, useLocale } from 'next-intl';
-import { ArrowLeft, Shield, MapPin, Cookie, Scale, Mail } from 'lucide-react';
+import { ArrowLeft, Shield, MapPin, Cookie, Scale, Mail, Users } from 'lucide-react';
 import Link from 'next/link';
 
 /**
@@ -48,6 +48,16 @@ export default function PrivacyPage() {
             </div>
             <p className="text-muted-foreground leading-relaxed">
               {t('locationDesc')}
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <div className="flex items-center gap-3 text-primary">
+              <Users size={24} />
+              <h2 className="text-2xl font-bold font-headline">{t('communityTitle')}</h2>
+            </div>
+            <p className="text-muted-foreground leading-relaxed">
+              {t('communityDesc')}
             </p>
           </section>
 

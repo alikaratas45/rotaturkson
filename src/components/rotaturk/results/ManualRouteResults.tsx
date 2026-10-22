@@ -10,7 +10,7 @@ import { useState } from 'react';
 import { PoiReviewDialog } from '../dialogs/PoiReviewDialog';
 import { useTranslations, useLocale } from 'next-intl';
 import { useToast } from '@/hooks/use-toast';
-import { useFirestore } from '@/firebase';
+import { useFirestore, useUser } from '@/firebase';
 import { doc, collection, setDoc, serverTimestamp } from 'firebase/firestore';
 import { errorEmitter } from '@/firebase/error-emitter';
 import { FirestorePermissionError } from '@/firebase/errors';
@@ -64,6 +64,7 @@ export function ManualRouteResults({
     const [selectedPoiIds, setSelectedPoiIds] = useState<Set<string>>(new Set());
     
     const db = useFirestore();
+    const { user } = useUser();
     const t = useTranslations('ManualRouteResults');
     const t_duration = useTranslations('Duration');
     const locale = useLocale();
@@ -120,18 +121,20 @@ export function ManualRouteResults({
 
             const updateData = {
                 routeData: result,
+                createdBy: user?.uid || null,
+                creatorName: user?.displayName || null,
                 createdAt: serverTimestamp()
             };
 
-            setDoc(newDocRef, updateData)
-                .catch(async (serverError) => {
-                    const permissionError = new FirestorePermissionError({
-                        path: newDocRef.path,
-                        operation: 'create',
-                        requestResourceData: updateData,
-                    });
-                    errorEmitter.emit('permission-error', permissionError);
+            await setDoc(newDocRef, updateData).catch((serverError) => {
+                const permissionError = new FirestorePermissionError({
+                    path: newDocRef.path,
+                    operation: 'create',
+                    requestResourceData: updateData,
                 });
+                errorEmitter.emit('permission-error', permissionError);
+                throw serverError;
+            });
 
             if (navigator.share) {
                 await navigator.share({
