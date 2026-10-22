@@ -200,12 +200,15 @@ export function PoiReviewDialog({ poi, open, onOpenChange }: PoiReviewDialogProp
                     </div>
                     )}
                     {!isLoading && visiblePhotos.length > 0 ? (
-                        <div className="grid grid-cols-2 gap-4">
-                            {visiblePhotos.map((photo: any, index: number) => (
-                                <button key={index} onClick={() => setSelectedImage(photo.url)} className="group rounded-2xl overflow-hidden aspect-video bg-muted relative shadow-md">
-                                    <img src={photo.url} alt={`${localizedName} ${index + 1}`} className="w-full h-full object-cover transition-transform group-hover:scale-110" onError={() => handleImageError(index)} />
-                                </button>
-                            ))}
+                        <div>
+                            <div className="grid grid-cols-2 gap-4">
+                                {visiblePhotos.map((photo: any, index: number) => (
+                                    <button key={index} onClick={() => setSelectedImage(photo.url)} className="group rounded-2xl overflow-hidden aspect-video bg-muted relative shadow-md">
+                                        <img src={photo.url} alt={`${localizedName} ${index + 1}`} className="w-full h-full object-cover transition-transform group-hover:scale-110" onError={() => handleImageError(index)} />
+                                    </button>
+                                ))}
+                            </div>
+                            <p className="mt-2 text-xs text-muted-foreground">{t('photoSource')}</p>
                         </div>
                     ) : !isLoading && <div className="py-10 text-center text-muted-foreground bg-muted/20 rounded-2xl"><ImageOff size={48} className="mx-auto mb-2 opacity-20" /> {t('noPhotos')}</div>}
                     

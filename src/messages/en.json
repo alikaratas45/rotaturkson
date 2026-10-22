@@ -282,7 +282,8 @@
     "checkinSuccess": "You said you're here and earned 10 Traveler Points!",
     "error": "Error",
     "checkinFailed": "The operation failed.",
-    "noPhotos": "No photos yet."
+    "noPhotos": "No photos yet.",
+    "photoSource": "These images are sourced from Google Maps."
   },
   "Leaderboard": {
     "title": "Traveler Leaderboard",

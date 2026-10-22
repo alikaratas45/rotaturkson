@@ -272,7 +272,8 @@
     "checkinSuccess": "Sie haben gesagt, dass Sie hier sind und 10 Punkte verdient!",
     "error": "Fehler",
     "checkinFailed": "Der Vorgang ist fehlgeschlagen.",
-    "noPhotos": "Noch keine Fotos."
+    "noPhotos": "Noch keine Fotos.",
+    "photoSource": "Diese Bilder stammen von Google Maps."
   },
   "Leaderboard": {
     "title": "Reisenden-Bestenliste",

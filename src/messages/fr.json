@@ -272,7 +272,8 @@
     "checkinSuccess": "Vous avez dit que vous étiez ici et gagné 10 points !",
     "error": "Erreur",
     "checkinFailed": "L'opération a échoué.",
-    "noPhotos": "Aucune photo pour l'instant."
+    "noPhotos": "Aucune photo pour l'instant.",
+    "photoSource": "Ces images proviennent de Google Maps."
   },
   "Leaderboard": {
     "title": "Classement des Voyageurs",

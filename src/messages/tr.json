@@ -282,7 +282,8 @@
     "checkinSuccess": "Buradayım dediniz ve 10 Gezgin Puanı kazandınız!",
     "error": "Hata",
     "checkinFailed": "İşlem başarısız oldu.",
-    "noPhotos": "Henüz fotoğraf yok."
+    "noPhotos": "Henüz fotoğraf yok.",
+    "photoSource": "Bu görseller Google Haritalar'dan alınmıştır."
   },
   "Leaderboard": {
     "title": "Gezgin Sıralaması",
