@@ -151,6 +151,8 @@
   },
   "LocationCombobox": {
     "cityPlaceholder": "İl Seçin",
+    "citySearchPlaceholder": "İl adı yazın...",
+    "noCitiesFound": "İl bulunamadı.",
     "districtPlaceholder": "İlçe (İsteğe Bağlı)",
     "allDistricts": "Tümü"
   },

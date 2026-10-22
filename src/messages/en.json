@@ -151,6 +151,8 @@
   },
   "LocationCombobox": {
     "cityPlaceholder": "Select City",
+    "citySearchPlaceholder": "Type a city name...",
+    "noCitiesFound": "No cities found.",
     "districtPlaceholder": "District (Optional)",
     "allDistricts": "All"
   },

@@ -1,581 +1,579 @@
-7 Mehmet Restoran
-Abant Gölü Milli Parkı
-Acarlar Longozu
-Acıgöl
-Adala Kanyonu
-Adamkayalar
-Adana Arkeoloji Müzesi
-Adana Sinema Müzesi
-Adana Ulu Camii ve Külliyesi
-Adatepe Köyü
-Adrasan Koyu
-Afrodisias Antik Kenti
-Afyonkarahisar Kalesi
-Ağırnas Yeraltı Şehri
-Ahi Evran Camii
-Ahi Evran Müzesi
-Ahlat Sahil Kalesi
-Ahlat Selçuklu Mezarlığı
-Aigai Antik Kenti
-Aizanoi Antik Kenti
-Akçakoca Ceneviz Kalesi
-Akdağ Tabiat Parkı
-Akdamar Adası ve Kilisesi
-Akgöl
-Akkaya Travertenleri
-Akyaka
-Akyaka Azmak Nehri
-Alacahöyük
-Alaçatı
-Aladağlar Milli Parkı
-Alahan Manastırı
-Alanya Kalesi
-Alinda Antik Kenti
-Altınbeşik Mağarası
-Altıntepe Ören Yeri
-Amasra
-Amasya Kalesi
-Amasya Yalıboyu Evleri
-Amos Antik Kenti
-Anadolu Kavağı
-Anadolu Medeniyetleri Müzesi
-Anadolu Medeniyetleri Müzesi
-Anamurium Antik Kenti
-Anavarza Antik Kenti
-Anıtkabir
-Ani Harabeleri
-Ankara Kalesi
-Ankara Kalesi
-Antakya Uzun Çarşı
-Antalya Müzesi
-Antandros Antik Kenti
-Apollon Smintheion Tapınağı
-Apollon Tapınağı
-Aqua Vega Akvaryum
-Arapapıştı Kanyonu
-Arasta Çarşısı
-Ardahan Kalesi
-Arslantepe Höyüğü
-Artabel Gölleri Tabiat Parkı
-Asansör
-Asmalı Konak
-Aspendos Antik Tiyatrosu
-Assos Antik Kenti
-Aşıklar Şelalesi
-Atatürk Arboretumu
-Atatürk Köşkü
-Augustus Tapınağı
-Augustus Tapınağı ve Yazıtı
-Avanos Çömlek Atölyeleri
-Ayasofya
-Ayder Yaylası
-Aydıntepe Yeraltı Şehri
-Aygır Gölü
-Ayvatlar Kanyonu
-Aziz Petrus Kilisesi (St. Pierre)
-Aziziye Tabyaları
-Babakale
-Bafa Gölü Milli Parkı
-Bağdat Caddesi
-Balatlar Kilisesi
-Balıkesir Kuşcenneti Milli Parkı
-Balıklıgöl
-Ballıca Mağarası
-Bargylia Antik Kenti
-Bayburt Kalesi
-Bayburt Ulu Camii
-Beçin Kalesi
-Bergama Akropolü
-Beşkonak Kanyonu
-Beyazıt Külliyesi ve Sağlık Müzesi
-Beypazarı
-Beypazarı Evleri
-Biga Çayı (Granikos)
-Binbir Kilise (Değle Ören Yeri)
-Birgi Çakırağa Konağı
-Bitlis Etnografya Müzesi
-Blaundus Antik Kenti
-Bodrum Kalesi ve Sualtı Arkeoloji Müzesi
-Boğaz Turu
-Boğazlıyan Kaplıcaları
-Borçka Karagöl
-Bozcaada
-Boztepe Çay Bahçeleri
-Buban Bacaları
-Burdur Arkeoloji Müzesi
-Bursa Teleferik
-Bursa Ulu Camii
-Buruciye Medresesi
-Buzluk Mağarası
-Büyük Saat Kulesi
-Cacabey Medresesi
-Cal Mağarası
-Cehennemağzı Mağaraları
-Cennet ve Cehennem Obrukları
-Cilo Dağları ve Sat Buzul Gölleri
-Cizre Ulu Cami
-Clandras Köprüsü
-Cumalıkızık Köyü
-Cunda Adası
-Çakırca Bazalt Sütunları
-Çambaşı Yaylası
-Çamlıca Tepesi
-Çamlık Buharlı Lokomotif Müzesi
-Çanakkale Deniz Müzesi
-Çandarlı Kalesi
-Çankırı Tuz Mağarası
-Çankırı Tuz Mağarası
-Çatalca İnceğiz Mağaraları
-Çatalhöyük
-Çavuştepe Kalesi
-Çemişgezek İn Mağaraları
-Çeşme Kalesi ve Müzesi
-Çıldır Akçakale Adası
-Çıldır Gölü
-Çınarlı Köyü (Plagia)
-Çır Şelalesi
-Çifte Minareli Medrese (Sivas)
-Çinili Göl
-Çobandede Köprüsü
-Çorum Müzesi
-Dara Antik Kenti
-Datça Yarımadası
-Denizli Teleferik ve Bağbaşı Yaylası
-Derinkuyu Yeraltı Şehri
-Devrent Vadisi (Hayal Vadisi)
-Deyrulzafaran Manastırı
-Didyma Apollon Tapınağı
-Dilek Yarımadası-Büyük Menderes Deltası Milli Parkı
-Divriği Ulu Camii
-Divriği Ulu Camii ve Darüşşifası
-Diyarbakır Surları
-Diyarbakır Ulu Camii
-Doğu Beyazıt Kent Evi Ve Müzesi
-Doğubayazıt Kalesi
-Dolmabahçe Sarayı
-Dört Kilise (Othta Eklesia)
-Dupnisa Mağarası
-Düden Şelalesi
-Ebu'l Menucehr Camii
-Edirne Sarayı (Saray-ı Cedid-i Amire)
-Efes Antik Kenti
-Eğirdir Gölü
-Ejder Kervansarayı
-El-Aman Hanı
-Elaia Antik Kenti
-Enez Kalesi
-Erciyes Dağı
-Erciyes Dağı Kayak Merkezi
-Erfelek Tatlıca Şelaleleri
-Erikli Yaylası ve Şelalesi
-Erimtan Arkeoloji ve Sanat Müzesi
-Erythrai Antik Kenti (Ildırı)
-Erzurum Çifte Minareli Medrese
-Erzurum Evleri
-Eshab-ı Kehf Külliyesi (Afşin)
-Eski Datça
-Eski Malatya Ulu Camii
-Eskişehir Odunpazarı Evleri
-Essanlar Konağı
-Estergon Kalesi (Ankara)
-Euromos Antik Kenti
-Eymir Gölü
-Fakıllı Mağarası
-Feke Kalesi
-Fener ve Balat Semtleri
-Fethiye Kordon
-Fırtına Deresi
-Fırtına Vadisi
-Finike Arykanda Antik Kenti
-Frig Vadisi
-Galata Kulesi
-Gaziantep Kalesi
-Gelibolu Yarımadası Tarihi Milli Parkı
-Gelidonya Feneri
-Gençlik Parkı
-Gerede Arkut Dağı Kayak Merkezi
-Germanicia Mozaikleri
-Gevher Nesibe Şifahanesi
-Gideros Koyu
-Giresun Adası
-Giresun Kalesi
-Girlevik Şelalesi
-Gito Yaylası
-Golden Key Bördübet
-Gordion Antik Kenti
-Gordion Antik Kenti
-Gordion Müzesi
-Göbeklitepe
-Göbeklitepe Restoran
-Gök Medrese
-Gökçeada
-Gökçetepe Tabiat Parkı
-Gökgöl Mağarası
-Gökmedrese
-Gökova Körfezi
-Gökpınar Gölü
-Gölcük Gölü
-Gölcük Tabiat Parkı
-Gölyazı
-Göynük Tarihi Evleri
-Gümüldür Mandalina Bahçeleri
-Gümüşhane Konakları
-Gümüşler Manastırı
-Gümüşler Manastırı
-Günpınar Şelalesi
-Güzelcehisar Lav Sütunları
-Hacı Bayram Veli Camii
-Hacı Bayram Veli Camii ve Türbesi
-Hadrian Kapısı (Üçkapılar)
-Hakkari Kent Arşiv ve Etnografya Müzesi
-Halfeti
-Halikarnas Mozolesi
-Hamsilos Koyu
-Harbiye Şelaleleri
-Harput Kalesi (Süt Kalesi)
-Harran
-Hasandağı
-Hasankeyf
-Hatay Arkeoloji Müzesi
-Hattuşa Otel
-Hattuşaş
-Havariler Kilisesi (Kümbet Camii)
-Haydarpaşa Garı
-Hazar Gölü
-Herakleia (Latmos)
-Herakleia Salbace
-Hevsel Bahçeleri
-Hierapolis Antik Kenti
-Hopa Kültür Evi
-Horma Kanyonu
-Hoşap Kalesi
-Hyllarima Antik Kenti
-Iasos Antik Kenti
-Iğdır Soykırım Anıtı ve Müzesi
-Ihlara Vadisi
-Ilgaz Dağı Milli Parkı
-Ilıca Şelalesi
-Isparta Lavanta Tarlaları
-İbradı Ormana Köyü
-İğneada Feneri
-İğneada Longoz Ormanları Milli Parkı
-İnce Minareli Medrese
-İncekum Tabiat Parkı
-İnciraltı Kent Ormanı
-İnebolu Evleri
-İnkaya Tarihi Çınarı
-İnsuyu Mağarası
-İshak Paşa Sarayı
-İspir Kalesi
-İstanbul Akvaryum
-İşhan Manastırı
-İzmir Arkeoloji Müzesi
-İzmir Doğal Yaşam Parkı
-İzmir Saat Kulesi
-İzmir Tarihi Kemeraltı Çarşısı
-İznik
-İztuzu Plajı
-Japon Bahçesi
-Kaçkar Dağları Milli Parkı
-Kadıkalesi (Anaia)
-Kahramanmaraş Kalesi
-Kaklık Mağarası
-Kaleiçi
-Kangal Balıklı Kaplıca
-Kapadokya At Çiftlikleri
-Kapadokya Peri Bacaları
-Kapalıçarşı
-Kapıkaya Kanyonu
-Kaputaş Plajı
-Karaağaç
-Karaca Mağarası
-Karagöl Sahara Milli Parkı
-Karagöl Tabiat Parkı
-Karain Mağarası
-Karaman Kalesi
-Karanlık Kanyon
-Karatay Medresesi
-Karkamış Antik Kenti
-Kars Fethiye Camii (Alexander Nevsky Katedrali)
-Kars Kalesi
-Kars Müzesi
-Kartepe Kayak Merkezi
-Kastabala Antik Kenti
-Kastamonu Kalesi
-Kastamonu Saat Kulesi
-Kastro Koyu (Çamlıköy)
-Kaunos Kaya Mezarları
-Kaymaklı Yeraltı Şehri
-Kayseri Arkeoloji Müzesi
-Kayseri Kalesi
-Kayseri Saat Kulesi
-Kaz Dağları Milli Parkı
-Kefken Pembe Kayalar
-Kekova Batık Şehir
-Kelebekler Vadisi
-Kemaliye Karanlık Kanyon
-Kerkenes Harabeleri (Pteria)
-Kınalıada
-Kırıkkale Silah Sanayi Müzesi
-Kırklareli Müzesi
-Kırşehir Kalesi
-Kız Kalesi
-Kız Köprüsü (Adala)
-Kız Kulesi
-Kızılay Meydanı
-Kızılırmak Nehri ve Avanos Sahili
-Kibyra Antik Kenti
-Kilitbahir Kalesi
-Kinzi Kalesi
-Klazomenai Antik Kenti
-Knidos Antik Kenti
-Kocain Mağarası
-Konak Pier
-Konya Tropikal Kelebek Bahçesi
-Kov Kalesi
-Kozak Yaylası
-Köprülü Kanyon Milli Parkı
-Kral Kaya Mezarları
-Kremna Antik Kenti
-Kula Divlit Yanardağı
-Kula Peri Bacaları
-Kula-Salihli Jeoparkı
-Kurşunlu Şelalesi Tabiat Parkı
-Kuyucuk Gölü
-Kültepe Kaniş-Karum
-Kültepe Kaniş-Karum
-Kümbet Yaylası
-Küre Dağları Milli Parkı
-Kyzikos Antik Kenti
-Labraunda Kutsal Alanı
-Lagina Kutsal Alanı
-Laodikeia Antik Kenti
-Latmos Kaya Resimleri
-Letoon
-Levent Vadisi
-Likya Yolu Yürüyüşü
-Macahel (Camili) Biyosfer Rezervi
-Maden Deresi
-Malabadi Köprüsü
-Malazgirt Kalesi
-Mama Hatun Külliyesi
-Mamure Kalesi
-Manazan Mağaraları
-Manisa Muradiye Camii
-Mardin Eski Şehir
-Marmara Adası
-Marmaris Kalesi ve Arkeoloji Müzesi
-Mastaura Antik Kenti
-Maşukiye
-Meke Gölü
-Mençuna Şelalesi
-Meriç Köprüsü
-Meryem Ana Evi
-Mesotimolos Antik Kenti
-Metropolis Antik Kenti
-Mevlana Müzesi
-Meydan Medresesi
-Mısır Çarşısı
-Midas Anıtı (Yazılıkaya)
-Milet Antik Kenti
-Miniatürk
-Moda Sahili
-Mogan Gölü
-Mucur Yeraltı Şehri
-Munzur Vadisi Milli Parkı
-Muradiye Şelalesi
-Murat Köprüsü
-Museum Hotel
-Myndos Antik Kenti
-Myra Antik Kenti
-Myus Antik Kenti
-Narlıkuyu Mozaik Müzesi
-Nasreddin Hoca Türbesi
-Nemrut Dağı
 Nemrut Kalderası
-Nemrut Krater Gölü
-Neopolis (Yılancı Burnu)
-Nif Dağı Kemalpaşa
-Niğde Kalesi
-Niğde Kalesi
-Nuh'un Gemisi İzi
-Odunpazarı Evleri
-Olympos Antik Kenti
-Olympos Teleferik
-Ordu Boztepe
-Ortahisar Kalesi
-Orthosia Antik Kenti
-Osman Hamdi Bey Evi ve Müzesi
-Ovacık Gözeleri
-Oylat Kaplıcaları ve Mağarası
-Ölüdeniz
-Örümcek Ormanları
-Palandöken Kayak Merkezi
-Palovit Şelalesi
-Pamukkale Travertenleri
-Panionion
-Parion Antik Kenti
-Paşabağları (Rahipler Vadisi)
-Patara Antik Kenti ve Plajı
-Pedasa Antik Kenti
-Pepuza Antik Kenti
-Pera Müzesi
-Perge Antik Kenti
-Peri Bacaları Lokantası
-Peristera Manastırı (Kuştul)
-Pertek Kalesi
-Pessinus Antik Kenti
-Phaselis Antik Kenti
-Philadelphia Antik Kenti
-Phoenix Antik Kenti
-Pierre Loti Tepesi
-Pitane Antik Kenti
-Pokut Yaylası
-Polonezköy Tabiat Parkı
-Porsuk Çayı ve Adalar Bölgesi
-Poyrazlar Gölü
-Priene Antik Kenti
-Rahmi M. Koç Müzesi
-Rakoczi Müzesi
-Rize Kalesi
-Roma Hamamı
-Roma Hamamı (Ankara)
-Sabancı Merkez Camii
-Safranbolu Evleri
-Sagalassos Antik Kenti
-Sakarya Nehri
-Saklıkapı Kanyonu
-Saklıkent Kanyonu
-Saklıkent Paradise Park
-Sal Yaylası
-Salda Gölü
-Samsun Bandırma Vapuru Müzesi
-Santa Harabeleri
-Sapanca Gölü
-Sardes Antik Kenti
-Sarıkamış Allahuekber Dağları Milli Parkı
-Sarıkamış Kayak Merkezi
-Satala Antik Kenti
-Sazova Parkı
-Seben Gölü ve Kaya Evleri
-Sedir Adası (Kleopatra Adası)
-Seferihisar Sığacık Kalesi
-Selime Manastırı
-Selimiye Camii
-Sera Gölü
-Seyda Goyan Etnografya Müzesi
-Seyfe Gölü
-Seyfe Gölü Kuş Cenneti
-Seyhan Nehri Kıyısı
-Sırakayalar Şelaleleri
-Sille Aya-Elena Kilisesi
-Sille Köyü
-Simena Kalesi (Kaleköy)
-Sinasos (Mustafapaşa)
-Sinop Tarihi Cezaevi
-Sivriada
-Sivrihisar Ulu Camii
-Soğanlı Vadisi
-Soğanlı Vadisi
-Soğuksu Milli Parkı
-Spil Dağı Milli Parkı
-Stratonikeia Antik Kenti
-Sudüşen Şelalesi
-Sultan Sazlığı Milli Parkı
-Sultanahmet Camii
-Sultanhanı Kervansarayı
-Suuçtu Şelalesi
-Sülüklü Göl
-Sümela Manastırı
-Şahin Tepesi
-Şahindere Kanyonu
-Şahinkaya Kanyonu
-Şavşat Karagöl
-Şebinkarahisar Kalesi
-Şereflikoçhisar Tuz Gölü
-Şeytan Kalesi
-Şeytan Köprüsü
-Şeytan Sofrası
-Şile Feneri
-Şirince Köyü
-Taraklı Evleri
-Tarihi Havagazı Fabrikası Kültür Merkezi
-Tarihi Kula Evleri
-Tarihi Odunpazarı Evleri Restaurant
-Tarsus St. Paul Kuyusu
-Tarsus Şelalesi
+Adatepe Köyü
+Zeus Altarı
 Taş Mektep
-Taşhan
-Taşkale Tahıl Ambarları
-Taşköprü
-Taşyaran Vadisi
-Tazı Kanyonu
-Tekirdağ Arkeoloji ve Etnografya Müzesi
-Teos Antik Kenti
-Termessos Antik Kenti
-Thera Antik Kenti
-Thyateira Antik Kenti
-Tillo Kalesi ve Cam Teras
-Tirebolu Kalesi
-Titus Tüneli ve Beşikli Mağara
-Topkapı Sarayı
-Tortum Gölü
-Tortum Şelalesi
-Tödürge Gölü
-Trabzon Ayasofya Müzesi
-Trabzon Kalesi
-Tralleis Antik Kenti
-Tripolis Antik Kenti
-Troas Antik Kenti
-Truva Antik Kenti
-Tunalı Hilmi Caddesi
-Tuzluca Tuz Mağaraları
-Tyana Antik Kenti (Kemerhisar)
-Uçhisar Kalesi
-Uçmakdere
-Uluabat Gölü
-Ulubey Kanyonu Cam Terası
-Urla Sanat Sokağı
-Uşak Arkeoloji Müzesi
-Uzuncaburç Antik Kenti
-Uzungöl
-Üç Güzeller
-Üç Kümbetler
+Arapapıştı Kanyonu
+Şahindere Kanyonu
+Horma Kanyonu
 Valla Kanyonu
-Van Kalesi
+Ilıca Şelalesi
+Gideros Koyu
+Güzelcehisar Lav Sütunları
+Göynük Tarihi Evleri
+Sülüklü Göl
+Akkaya Travertenleri
+Yerköprü Şelalesi
+Narlıkuyu Mozaik Müzesi
+Adamkayalar
+Mamure Kalesi
+Uzuncaburç Antik Kenti
+Yumuktepe Höyüğü
+Finike Arykanda Antik Kenti
+Olympos Teleferik
+Gelidonya Feneri
+Köprülü Kanyon Milli Parkı
+Tazı Kanyonu
+Altınbeşik Mağarası
+Beşkonak Kanyonu
+İncekum Tabiat Parkı
+Kocain Mağarası
+Arasta Çarşısı
+Meriç Köprüsü
+İğneada Feneri
+Vize Antik Tiyatrosu
+Kastro Koyu (Çamlıköy)
+Şile Feneri
+Anadolu Kavağı
+Yoros Kalesi
+Çatalca İnceğiz Mağaraları
+Maden Deresi
+Poyrazlar Gölü
+Akyaka Azmak Nehri
+Sedir Adası (Kleopatra Adası)
+Vezirsuyu Tabiat Parkı
+Akdağ Tabiat Parkı
+Çambaşı Yaylası
+Kümbet Yaylası
+Şavşat Karagöl
+Borçka Karagöl
+Amasya Kalesi
+Alahan Manastırı
+Pera Müzesi
+Kapıkaya Kanyonu
+Anavarza Antik Kenti
+Cizre Ulu Cami
+Acıgöl
+Şebinkarahisar Kalesi
+Karkamış Antik Kenti
+Doğu Beyazıt Kent Evi Ve Müzesi
+Feke Kalesi
+Nasreddin Hoca Türbesi
+Mesotimolos Antik Kenti
+Uşak Arkeoloji Müzesi
+Pepuza Antik Kenti
+Ankara Kalesi
+Gümüşler Manastırı
+Cacabey Medresesi
+Çankırı Tuz Mağarası
+Sille Köyü
+İnce Minareli Medrese
+Meke Gölü
+Karaman Kalesi
+Gordion Antik Kenti
+Pessinus Antik Kenti
+Sazova Parkı
+Kültepe Kaniş-Karum
+Soğanlı Vadisi
+Çifte Minareli Medrese (Sivas)
+Gök Medrese
+Aygır Gölü
+Niğde Kalesi
+Mevlana Müzesi
+Ahi Evran Camii
+Seyfe Gölü
+Kırıkkale Silah Sanayi Müzesi
+Şereflikoçhisar Tuz Gölü
+Anadolu Medeniyetleri Müzesi
+Roma Hamamı (Ankara)
+Augustus Tapınağı
+Beypazarı Evleri
+Estergon Kalesi (Ankara)
+Selime Manastırı
+Çatalhöyük
+Hasandağı
+Karatay Medresesi
+Gevher Nesibe Şifahanesi
+Kayseri Saat Kulesi
+Kızılırmak Nehri ve Avanos Sahili
+Ağırnas Yeraltı Şehri
+Buruciye Medresesi
+Tödürge Gölü
+Çandarlı Kalesi
+Kemaliye Karanlık Kanyon
+Odunpazarı Evleri
+Sille Aya-Elena Kilisesi
+Yazılıkaya Midas Anıtı
+Divriği Ulu Camii
+Erciyes Dağı
+Taşyaran Vadisi
+Efes Antik Kenti
+Zeugma Mozaik Müzesi
+Amasya Yalıboyu Evleri
+Kral Kaya Mezarları
+Gökmedrese
+Burdur Arkeoloji Müzesi
+Sinop Tarihi Cezaevi
+Hamsilos Koyu
+Laodikeia Antik Kenti
+Midas Anıtı (Yazılıkaya)
+Isparta Lavanta Tarlaları
+Eğirdir Gölü
+Topkapı Sarayı
+Salda Gölü
+Adrasan Koyu
+Simena Kalesi (Kaleköy)
+Alanya Kalesi
+Küre Dağları Milli Parkı
+Gölyazı
+Bursa Ulu Camii
+Yeşil Türbe
+İztuzu Plajı
+Kaunos Kaya Mezarları
+Aspendos Antik Tiyatrosu
+Kibyra Antik Kenti
+Manazan Mağaraları
+Cilo Dağları ve Sat Buzul Gölleri
+Halfeti
+Zinciriye Medresesi
+Deyrulzafaran Manastırı
+Zilkale
+Meryem Ana Evi
+Aziz Petrus Kilisesi (St. Pierre)
+Saklıkent Kanyonu
+Kekova Batık Şehir
+Spil Dağı Milli Parkı
+Sivrihisar Ulu Camii
+Gordion Müzesi
+Termessos Antik Kenti
+Çorum Müzesi
+Balatlar Kilisesi
+Peri Bacaları Lokantası
+Zeus Mağarası
+Cunda Adası
+Göbeklitepe Restoran
+Saklıkent Paradise Park
+Alaçatı
+Apollon Tapınağı
+Doğubayazıt Kalesi
+Abant Gölü Milli Parkı
+Şahin Tepesi
+Titus Tüneli ve Beşikli Mağara
+Kayseri Kalesi
+Yason Burnu
+Nemrut Dağı
+Kaputaş Plajı
+Hierapolis Antik Kenti
+Antakya Uzun Çarşı
+Kapadokya At Çiftlikleri
+Erimtan Arkeoloji ve Sanat Müzesi
+Halikarnas Mozolesi
+Gelibolu Yarımadası Tarihi Milli Parkı
+İnsuyu Mağarası
+Augustus Tapınağı ve Yazıtı
+Letoon
+Uzungöl
+Gümüldür Mandalina Bahçeleri
+Museum Hotel
+7 Mehmet Restoran
+Tarihi Odunpazarı Evleri Restaurant
+Hattuşa Otel
+Ordu Boztepe
+Gaziantep Kalesi
+Samsun Bandırma Vapuru Müzesi
+Şahinkaya Kanyonu
+Trabzon Kalesi
+Balıklıgöl
+Fethiye Kordon
+İbradı Ormana Köyü
+Phaselis Antik Kenti
+Çamlık Buharlı Lokomotif Müzesi
+Thyateira Antik Kenti
+Kula Peri Bacaları
+Blaundus Antik Kenti
+Ulubey Kanyonu Cam Terası
+Afyonkarahisar Kalesi
+Frig Vadisi
+Patara Antik Kenti ve Plajı
+Porsuk Çayı ve Adalar Bölgesi
+Nemrut Krater Gölü
+Ahlat Selçuklu Mezarlığı
+Kars Müzesi
+Sarıkamış Kayak Merkezi
+Gökpınar Gölü
+Kangal Balıklı Kaplıca
+Diyarbakır Ulu Camii
+Malabadi Köprüsü
+Palandöken Kayak Merkezi
+Safranbolu Evleri
+Tortum Şelalesi
+Aydıntepe Yeraltı Şehri
+Bayburt Kalesi
+Zigana Geçidi
+Karaca Mağarası
+Tirebolu Kalesi
+Giresun Adası
+Akgöl
+Erfelek Tatlıca Şelaleleri
+Gökçetepe Tabiat Parkı
+Anıtkabir
+İshak Paşa Sarayı
+İğneada Longoz Ormanları Milli Parkı
+Likya Yolu Yürüyüşü
+Bursa Teleferik
+Erzurum Evleri
+Uçhisar Kalesi
+Konak Pier
+Alacahöyük
+Asansör
+Kınalıada
+Anadolu Medeniyetleri Müzesi
+Polonezköy Tabiat Parkı
+Tarsus St. Paul Kuyusu
 Van Kedi Evi
+Çeşme Kalesi ve Müzesi
+İzmir Tarihi Kemeraltı Çarşısı
+Dilek Yarımadası-Büyük Menderes Deltası Milli Parkı
+Kastabala Antik Kenti
+Bozcaada
+Marmaris Kalesi ve Arkeoloji Müzesi
+Sultan Sazlığı Milli Parkı
+Kültepe Kaniş-Karum
+Harbiye Şelaleleri
+Yesemek Açık Hava Müzesi ve Heykel Atölyesi
+Atatürk Arboretumu
+Sivriada
+Rahmi M. Koç Müzesi
+Miniatürk
+Vialand Tema Park
+Beypazarı
+İstanbul Akvaryum
+Boğaz Turu
+Fener ve Balat Semtleri
+Pierre Loti Tepesi
+Çamlıca Tepesi
+Bağdat Caddesi
+Moda Sahili
+Haydarpaşa Garı
+Ankara Kalesi
+Myra Antik Kenti
+Kızılay Meydanı
+Tunalı Hilmi Caddesi
+Eymir Gölü
+Mogan Gölü
+Soğuksu Milli Parkı
+Aqua Vega Akvaryum
+Gençlik Parkı
+Roma Hamamı
+İzmir Saat Kulesi
+İzmir Arkeoloji Müzesi
+Ani Harabeleri
+İzmir Doğal Yaşam Parkı
+Tarihi Havagazı Fabrikası Kültür Merkezi
+İnciraltı Kent Ormanı
+Urla Sanat Sokağı
+Erythrai Antik Kenti (Ildırı)
+Seferihisar Sığacık Kalesi
+Teos Antik Kenti
+Birgi Çakırağa Konağı
+Tarihi Kula Evleri
+Manisa Muradiye Camii
+Göbeklitepe
+Suuçtu Şelalesi
+Oylat Kaplıcaları ve Mağarası
+İnkaya Tarihi Çınarı
+Sakarya Nehri
+Sapanca Gölü
+Acarlar Longozu
+Taraklı Evleri
+Kefken Pembe Kayalar
+Amasra
+Maşukiye
+Kartepe Kayak Merkezi
+Osman Hamdi Bey Evi ve Müzesi
+Erikli Yaylası ve Şelalesi
+Yürüyen Köşk
+Sudüşen Şelalesi
+Yalova Termal Kaplıcaları
+Troas Antik Kenti
+Apollon Smintheion Tapınağı
+Babakale
+Dara Antik Kenti
+Kilitbahir Kalesi
+Çanakkale Deniz Müzesi
+Biga Çayı (Granikos)
+Parion Antik Kenti
+Kırklareli Müzesi
+Dupnisa Mağarası
+Tekirdağ Arkeoloji ve Etnografya Müzesi
+Rakoczi Müzesi
+Uçmakdere
+Enez Kalesi
+Hattuşaş
+Edirne Sarayı (Saray-ı Cedid-i Amire)
+Beyazıt Külliyesi ve Sağlık Müzesi
+Karaağaç
+Gölcük Tabiat Parkı
+Seben Gölü ve Kaya Evleri
+Gerede Arkut Dağı Kayak Merkezi
+Akçakoca Ceneviz Kalesi
+Fakıllı Mağarası
+Cehennemağzı Mağaraları
+Zonguldak Maden Müzesi
+Ayasofya
+Ihlara Vadisi
+Gökgöl Mağarası
+Kastamonu Saat Kulesi
+İnebolu Evleri
+Ilgaz Dağı Milli Parkı
+Çankırı Tuz Mağarası
+Hacı Bayram Veli Camii ve Türbesi
+Taşhan
+Kayseri Arkeoloji Müzesi
+Kaçkar Dağları Milli Parkı
+Ahi Evran Müzesi
+Japon Bahçesi
+Sultanhanı Kervansarayı
+Avanos Çömlek Atölyeleri
+Zelve Açık Hava Müzesi
+Paşabağları (Rahipler Vadisi)
+Devrent Vadisi (Hayal Vadisi)
+Ortahisar Kalesi
+Üç Güzeller
+Asmalı Konak
+Mardin Eski Şehir
+Sinasos (Mustafapaşa)
+Soğanlı Vadisi
+Erciyes Dağı Kayak Merkezi
+Binbir Kilise (Değle Ören Yeri)
+Taşkale Tahıl Ambarları
+Kremna Antik Kenti
+Antalya Müzesi
+Kaleiçi
+Hadrian Kapısı (Üçkapılar)
+Perge Antik Kenti
+Yivli Minare
+Düden Şelalesi
+Kurşunlu Şelalesi Tabiat Parkı
+Gökova Körfezi
+Akyaka
+Stratonikeia Antik Kenti
+Lagina Kutsal Alanı
+Herakleia (Latmos)
+Bafa Gölü Milli Parkı
+Knidos Antik Kenti
+Van Kalesi
+Eski Datça
+Denizli Teleferik ve Bağbaşı Yaylası
+Kaklık Mağarası
+Yeşildere Şelalesi
+Tripolis Antik Kenti
+Kula-Salihli Jeoparkı
+Adala Kanyonu
+Gölcük Gölü
+Nif Dağı Kemalpaşa
+Karagöl Tabiat Parkı
+Cumalıkızık Köyü
+Kozak Yaylası
+Balıkesir Kuşcenneti Milli Parkı
+Marmara Adası
+Antandros Antik Kenti
+Kyzikos Antik Kenti
+Çınarlı Köyü (Plagia)
+Kırşehir Kalesi
+Mucur Yeraltı Şehri
+Seyfe Gölü Kuş Cenneti
+Yozgat Çamlığı Milli Parkı
+Truva Antik Kenti
+Yozgat Saat Kulesi
+Kerkenes Harabeleri (Pteria)
+Boğazlıyan Kaplıcaları
+Niğde Kalesi
+Gümüşler Manastırı
+Tyana Antik Kenti (Kemerhisar)
+Çinili Göl
+Eshab-ı Kehf Külliyesi (Afşin)
+Kahramanmaraş Kalesi
+Germanicia Mozaikleri
+Assos Antik Kenti
+Fırtına Vadisi
+Pokut Yaylası
+Sal Yaylası
+Gito Yaylası
+Palovit Şelalesi
+Rize Kalesi
+Boztepe Çay Bahçeleri
+Trabzon Ayasofya Müzesi
+Atatürk Köşkü
+Sera Gölü
+Afrodisias Antik Kenti
+Cal Mağarası
+Vazelon Manastırı
+Peristera Manastırı (Kuştul)
+Gümüşhane Konakları
+Santa Harabeleri
+Satala Antik Kenti
+Kov Kalesi
+Örümcek Ormanları
+Artabel Gölleri Tabiat Parkı
+Bayburt Ulu Camii
+Xanthos-Letoon Antik Kentleri
+Sırakayalar Şelaleleri
+İspir Kalesi
+Yusufeli Barajı
+İşhan Manastırı
+Dört Kilise (Othta Eklesia)
+Macahel (Camili) Biyosfer Rezervi
+Hopa Kültür Evi
+Kars Fethiye Camii (Alexander Nevsky Katedrali)
+Şeytan Kalesi
+Ardahan Kalesi
+Kapadokya Peri Bacaları
+Gordion Antik Kenti
+Iğdır Soykırım Anıtı ve Müzesi
+İznik
+Karain Mağarası
+Aladağlar Milli Parkı
+Fırtına Deresi
+Kız Kalesi
+Divriği Ulu Camii ve Darüşşifası
+Sagalassos Antik Kenti
+Muradiye Şelalesi
+Şirince Köyü
+Pamukkale Travertenleri
+Harran
+Golden Key Bördübet
+Essanlar Konağı
+Çakırca Bazalt Sütunları
+Kula Divlit Yanardağı
+Kız Köprüsü (Adala)
+Sultanahmet Camii
+Kapalıçarşı
+Yerebatan Sarnıcı
+Galata Kulesi
+Kız Kulesi
+Dolmabahçe Sarayı
+Mısır Çarşısı
+Sardes Antik Kenti
+Milet Antik Kenti
+Priene Antik Kenti
+Taşköprü
+Sabancı Merkez Camii
+Adana Arkeoloji Müzesi
+Didyma Apollon Tapınağı
+Büyük Saat Kulesi
+Adana Ulu Camii ve Külliyesi
+Varda Köprüsü
+Adana Sinema Müzesi
+Seyhan Nehri Kıyısı
+Bodrum Kalesi ve Sualtı Arkeoloji Müzesi
+Kelebekler Vadisi
+Ölüdeniz
+Kaymaklı Yeraltı Şehri
+Derinkuyu Yeraltı Şehri
+Selimiye Camii
+Gökçeada
+Kaz Dağları Milli Parkı
+Cennet ve Cehennem Obrukları
+Aşıklar Şelalesi
+Bergama Akropolü
+Konya Tropikal Kelebek Bahçesi
+Çıldır Gölü
+Erzurum Çifte Minareli Medrese
+Hatay Arkeoloji Müzesi
+Aizanoi Antik Kenti
+Olympos Antik Kenti
+Ayvatlar Kanyonu
+Sümela Manastırı
+Giresun Kalesi
+Yedigöller Milli Parkı
+Ayder Yaylası
+Şeytan Sofrası
+Datça Yarımadası
+Anamurium Antik Kenti
+Harput Kalesi (Süt Kalesi)
+Karagöl Sahara Milli Parkı
+Akdamar Adası ve Kilisesi
+Uluabat Gölü
+Eskişehir Odunpazarı Evleri
+Mençuna Şelalesi
+Diyarbakır Surları
+Hevsel Bahçeleri
+Tarsus Şelalesi
+Kastamonu Kalesi
+Ballıca Mağarası
+Hasankeyf
+Metropolis Antik Kenti
+Bargylia Antik Kenti
+Herakleia Salbace
+Tralleis Antik Kenti
+Philadelphia Antik Kenti
+Pitane Antik Kenti
+Elaia Antik Kenti
+Aigai Antik Kenti
+Klazomenai Antik Kenti
+Alinda Antik Kenti
+Mastaura Antik Kenti
+Orthosia Antik Kenti
+Neopolis (Yılancı Burnu)
+Panionion
+Kadıkalesi (Anaia)
+Myus Antik Kenti
+Latmos Kaya Resimleri
+Iasos Antik Kenti
+Phoenix Antik Kenti
+Amos Antik Kenti
+Hyllarima Antik Kenti
+Labraunda Kutsal Alanı
+Thera Antik Kenti
+Euromos Antik Kenti
+Beçin Kalesi
+Pedasa Antik Kenti
+Myndos Antik Kenti
+Yakutiye Medresesi
+Levent Vadisi
+Günpınar Şelalesi
+Hazar Gölü
+Buzluk Mağarası
+Girlevik Şelalesi
+Mama Hatun Külliyesi
+Altıntepe Ören Yeri
+Kars Kalesi
+Kuyucuk Gölü
+Sarıkamış Allahuekber Dağları Milli Parkı
+Üç Kümbetler
+Murat Köprüsü
+Yüzen Adalar
+Çır Şelalesi
+Ahlat Sahil Kalesi
+El-Aman Hanı
+Meydan Medresesi
+Aziziye Tabyaları
+Munzur Vadisi Milli Parkı
+Pertek Kalesi
+Ovacık Gözeleri
+Çıldır Akçakale Adası
+Ejder Kervansarayı
+Çobandede Köprüsü
+Şeytan Köprüsü
+Eski Malatya Ulu Camii
+Saklıkapı Kanyonu
+Karanlık Kanyon
+Tortum Gölü
+Ebu'l Menucehr Camii
+Havariler Kilisesi (Kümbet Camii)
+Nuh'un Gemisi İzi
+Malazgirt Kalesi
+Buban Bacaları
+Bitlis Etnografya Müzesi
+Çemişgezek İn Mağaraları
+Kinzi Kalesi
+Tuzluca Tuz Mağaraları
+Hoşap Kalesi
+Tillo Kalesi ve Cam Teras
+Çavuştepe Kalesi
 Van Müzesi
 Vanadokya (Van Peribacaları)
-Varda Köprüsü
-Vazelon Manastırı
-Vezirsuyu Tabiat Parkı
-Vialand Tema Park
-Vize Antik Tiyatrosu
-Xanthos-Letoon Antik Kentleri
-Yakutiye Medresesi
-Yalova Termal Kaplıcaları
-Yason Burnu
-Yazılıkaya Midas Anıtı
-Yedigöller Milli Parkı
-Yerebatan Sarnıcı
-Yerköprü Şelalesi
-Yesemek Açık Hava Müzesi ve Heykel Atölyesi
-Yeşil Türbe
-Yeşildere Şelalesi
-Yivli Minare
-Yoros Kalesi
-Yozgat Çamlığı Milli Parkı
-Yozgat Çamlığı Milli Parkı
-Yozgat Saat Kulesi
-Yumuktepe Höyüğü
-Yusufeli Barajı
-Yürüyen Köşk
-Yüzen Adalar
-Zelve Açık Hava Müzesi
-Zeugma Mozaik Müzesi
-Zeus Altarı
-Zeus Mağarası
-Zigana Geçidi
-Zilkale
-Zinciriye Medresesi
-Zonguldak Maden Müzesi
+Arslantepe Höyüğü
+Hakkari Kent Arşiv ve Etnografya Müzesi
+Seyda Goyan Etnografya Müzesi
+Clandras Köprüsü

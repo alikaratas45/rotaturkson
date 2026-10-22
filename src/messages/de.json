@@ -143,6 +143,8 @@
   },
   "LocationCombobox": {
     "cityPlaceholder": "Stadt Wählen",
+    "citySearchPlaceholder": "Stadtnamen eingeben...",
+    "noCitiesFound": "Keine Städte gefunden.",
     "districtPlaceholder": "Bezirk (Optional)",
     "allDistricts": "Alle"
   },
