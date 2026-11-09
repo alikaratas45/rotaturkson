@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import Link from 'next/link';
+import { useLocale } from 'next-intl';
 import { useUser, useFirestore } from '@/firebase';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
@@ -29,11 +31,13 @@ import {
 import staticPoisData from '@/lib/data/static-pois.json';
 import staticPoisData2 from '@/lib/data/static-pois2.json';
 import locations from '@/lib/data/turkey-locations.json';
+import { ADMIN_EMAIL } from '@/lib/admin';
 
 const POI_TYPES = ['Kültürel', 'Arkeolojik', 'Doğal', 'Tarihi', 'Yeme-İçme', 'Konaklama'];
 
 export default function AdminDashboard() {
   const { user, isUserLoading } = useUser();
+  const locale = useLocale();
   const db = useFirestore();
   const router = useRouter();
   const { toast } = useToast();
@@ -50,8 +54,6 @@ export default function AdminDashboard() {
   const [syncProgress, setSyncProgress] = useState(0);
   const [syncStatus, setSyncStatus] = useState('');
   const [isBulkSyncing, setIsBulkSyncing] = useState(false);
-
-  const ADMIN_EMAIL = 'alikaratas4564@rotaturk.net';
 
   const loadPois = useCallback(async (isInitial = false) => {
     if (isInitial) setInitialLoading(true);
@@ -239,6 +241,11 @@ export default function AdminDashboard() {
             </p>
         </div>
         <div className="flex flex-wrap gap-2">
+            <Button variant="outline" asChild>
+                <Link href={`/${locale}/admin/users`}>
+                    <Users className="mr-2 h-4 w-4" /> Kullanıcı İsimleri
+                </Link>
+            </Button>
             <Button variant="default" onClick={handleSyncAllToFirestore} disabled={isBulkSyncing} className="bg-rose-600 hover:bg-rose-700">
                 <DatabaseZap className="mr-2 h-4 w-4" /> Sıfırla ve Yedekten Yükle
             </Button>

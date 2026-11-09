@@ -50,5 +50,7 @@ export * from './firestore/use-collection';
 export * from './firestore/use-doc';
 export * from './non-blocking-updates';
 export * from './non-blocking-login';
+export * from './name-password-auth';
+export * from './place-suggestions';
 export * from './errors';
 export * from './error-emitter';

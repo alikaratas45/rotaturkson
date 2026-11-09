@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { Download, Route, Phone, Trophy, User } from 'lucide-react';
+import { Download, Route, Phone, Trophy, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTranslations, useLocale } from 'next-intl';
 import { LanguageSwitcher } from './LanguageSwitcher';
@@ -13,7 +13,7 @@ import { usePWAInstall } from '@/hooks/use-pwa-install';
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 import { useUser, useFirestore, useDoc, useMemoFirebase } from '@/firebase';
-import { doc } from 'firebase/firestore';
+import { doc, serverTimestamp, setDoc } from 'firebase/firestore';
 
 export function Header() {
   const t = useTranslations('Header');
@@ -31,6 +31,22 @@ export function Header() {
   useEffect(() => {
     setIsMounted(true);
   }, []);
+
+  useEffect(() => {
+    if (!user || user.isAnonymous || !user.displayName?.trim()) return;
+
+    void setDoc(
+      doc(db, 'users', user.uid),
+      {
+        id: user.uid,
+        displayName: user.displayName.trim(),
+        lastActivity: serverTimestamp(),
+      },
+      { merge: true },
+    ).catch((error: unknown) => {
+      console.error('Kullanıcı profili kaydedilemedi:', error);
+    });
+  }, [db, user]);
 
   const myRoutesHref = `/${locale}/my-routes`;
   
@@ -85,6 +101,12 @@ export function Header() {
               <Link href={myRoutesHref}>
                 <Route className="h-4 w-4 md:mr-2" />
                 <span className='hidden sm:inline font-bold'>{t('myRoutes')}</span>
+              </Link>
+            </Button>
+            <Button variant="ghost" size="sm" asChild className="rounded-full hover:bg-primary/10 hover:text-primary h-9 px-2 md:px-3">
+              <Link href={`/${locale}/yer-oner`}>
+                <MapPin className="h-4 w-4 md:mr-2" />
+                <span className="hidden sm:inline font-bold">Yer öner</span>
               </Link>
             </Button>
             <div className="flex items-center gap-0.5 pl-1 border-l ml-1">

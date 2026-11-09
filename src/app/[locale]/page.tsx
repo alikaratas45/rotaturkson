@@ -13,13 +13,24 @@ import { Timestamp } from 'firebase/firestore';
 import { EmbeddedMap } from '@/components/map';
 import { getAllPois } from '@/app/actions';
 import { Button } from '@/components/ui/button';
-import { Trophy } from 'lucide-react';
+import { Trophy, UserRound } from 'lucide-react';
 import { CommunityHub } from '@/components/rotaturk/CommunityHub';
+import { useUser } from '@/firebase';
+import { NamePasswordAuthForm } from '@/components/auth/NamePasswordAuthForm';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog';
 
 export default function Home() {
   const t = useTranslations('HomePage');
   const t_leaderboard = useTranslations('Leaderboard');
+  const { user } = useUser();
   const [showPreloader, setShowPreloader] = useState(true);
+  const [isAuthDialogOpen, setIsAuthDialogOpen] = useState(false);
   
   const [selectedPoi, setSelectedPoi] = useState<POI | null>(null);
   const [selectedTraveler, setSelectedTraveler] = useState<ActiveTraveler | null>(null);
@@ -87,12 +98,25 @@ export default function Home() {
       <div className="container mx-auto px-4 py-12 text-center">
             <div className="animate-fade-in-up">
                 <h1 className="text-4xl md:text-5xl font-extrabold font-headline tracking-tight text-foreground">
-                    {t('title')}
+                    {user && !user.isAnonymous
+                      ? `Hoş geldin, ${user.displayName?.trim() || 'Gezgin'}!`
+                      : t('title')}
                 </h1>
                 <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground font-medium">
-                    {t('subtitle')}
+                    {user && !user.isAnonymous
+                      ? 'Bugün nereyi geziyoruz?'
+                      : t('subtitle')}
                 </p>
                 <div className="mt-8 flex flex-wrap justify-center gap-3">
+                    {(!user || user.isAnonymous) && (
+                        <Button
+                            onClick={() => setIsAuthDialogOpen(true)}
+                            className="h-12 rounded-full px-8 font-bold shadow-md"
+                        >
+                            <UserRound className="mr-2 h-5 w-5" />
+                            Giriş yap / Kayıt ol
+                        </Button>
+                    )}
                     <Button 
                         onClick={() => setIsLeaderboardOpen(true)}
                         variant="outline"
@@ -105,6 +129,18 @@ export default function Home() {
                 </div>
             </div>
         </div>
+
+      <Dialog open={isAuthDialogOpen} onOpenChange={setIsAuthDialogOpen}>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>RotaTürk’e giriş yap</DialogTitle>
+            <DialogDescription>
+              Hesabınıza giriş yapın veya yeni bir hesap oluşturun.
+            </DialogDescription>
+          </DialogHeader>
+          <NamePasswordAuthForm onAuthenticated={() => setIsAuthDialogOpen(false)} />
+        </DialogContent>
+      </Dialog>
 
       {/* Planlayıcı ve Sonuçlar */}
       <div className="container mx-auto px-4 py-6">
