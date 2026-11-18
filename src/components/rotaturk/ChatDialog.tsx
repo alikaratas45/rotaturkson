@@ -26,23 +26,59 @@ export function ChatDialog({ targetTraveler, onClose }: ChatDialogProps) {
   const { toast } = useToast();
   const [message, setMessage] = useState('');
   const [isSending, setIsSending] = useState(false);
+  const [isRoomReady, setIsRoomReady] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   // Oda ID'sini her iki kullanıcı ID'sine göre sıralayıp oluşturuyoruz
+  const targetUserId = targetTraveler?.userId ?? null;
   const roomId = useMemo(() => {
-    if (!user || !targetTraveler) return null;
-    const ids = [user.uid, targetTraveler.userId].sort();
+    if (!user || !targetUserId || user.uid === targetUserId) return null;
+    const ids = [user.uid, targetUserId].sort();
     return `${ids[0]}_${ids[1]}`;
-  }, [user, targetTraveler]);
+  }, [user, targetUserId]);
+
+  useEffect(() => {
+    if (!db || !user || !targetUserId || !roomId) {
+      setIsRoomReady(false);
+      return;
+    }
+
+    let cancelled = false;
+    setIsRoomReady(false);
+
+    void setDoc(
+      doc(db, 'chats', roomId),
+      {
+        participants: [user.uid, targetUserId].sort(),
+        updatedAt: serverTimestamp(),
+      },
+      { merge: true },
+    ).then(() => {
+      if (!cancelled) setIsRoomReady(true);
+    }).catch((error: unknown) => {
+      console.error('Chat room initialization failed:', error);
+      if (!cancelled) {
+        toast({
+          variant: 'destructive',
+          title: t('sendError'),
+          description: error instanceof Error ? error.message : String(error),
+        });
+      }
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [db, roomId, targetUserId, user, toast, t]);
 
   const messagesQuery = useMemoFirebase(() => {
-    if (!db || !roomId) return null;
+    if (!db || !roomId || !isRoomReady) return null;
     return query(
       collection(db, 'chats', roomId, 'messages'),
       orderBy('timestamp', 'asc'),
       limit(100)
     );
-  }, [db, roomId]);
+  }, [db, roomId, isRoomReady]);
 
   const { data: messages } = useCollection<ChatMessage>(messagesQuery);
 
