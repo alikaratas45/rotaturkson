@@ -170,11 +170,6 @@
     "viewOnGoogleMaps": "Haritalarda Gör",
     "saveRoute": "Rotayı Kaydet",
     "routeSaved": "Rota Kaydedildi",
-    "shareRoute": "Rotayı Paylaş",
-    "linkCopied": "Bağlantı Kopyalandı",
-    "linkCopiedDesc": "Paylaşım bağlantısı panoya kopyalandı.",
-    "sharedRouteTitle": "Paylaşılan Rota: {routeName}",
-    "sharedRouteSubtitle": "Bu rota sizinle paylaşıldı.",
     "nearbyPoisTitle": "Çevrenizdeki Gezi Noktaları",
     "cityPoisTitle": "{cityName} İçin Öneriler",
     "routeDetailsTitle": "{startCity} - {endCity} Rotası",
@@ -267,22 +262,16 @@
     "close": "Kapat"
   },
   "Community": {
-    "openHub": "Gezginler ve Rotalar",
+    "openHub": "Gezginler",
     "title": "Gezgin Topluluğu",
-    "subtitle": "Çevrimiçi gezginlerle sohbet edin, paylaşılan rotaları keşfedin.",
+    "subtitle": "Çevrimiçi gezginlerle sohbet edin.",
     "onlineTab": "Çevrimiçi",
-    "routesTab": "Paylaşılan Rotalar",
     "onlineNow": "Şu anda çevrimiçi",
     "chat": "Sohbet Et",
     "loading": "Yükleniyor...",
     "loadError": "Topluluk bilgileri yüklenemedi. Lütfen daha sonra tekrar deneyin.",
     "noOnlineTitle": "Şu an başka gezgin çevrimiçi değil",
-    "noOnlineDesc": "Çevrimiçi olduklarında burada görünecek ve onlarla sohbete başlayabileceksiniz.",
-    "noRoutesTitle": "Henüz paylaşılmış rota yok",
-    "noRoutesDesc": "Bir rota oluşturup paylaşım bağlantısını oluşturan gezginlerin rotaları burada görünür.",
-    "unnamedRoute": "İsimsiz Rota",
-    "communityRoute": "Topluluk rotası",
-    "sharedBy": "{name} paylaştı"
+    "noOnlineDesc": "Çevrimiçi olduklarında burada görünecek ve onlarla sohbete başlayabileceksiniz."
   },
   "PoiReviewDialog": {
     "details": "Ayrıntılar",

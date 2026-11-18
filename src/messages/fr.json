@@ -162,11 +162,6 @@
     "viewOnGoogleMaps": "Voir sur Maps",
     "saveRoute": "Enregistrer",
     "routeSaved": "Itinéraire Enregistré",
-    "shareRoute": "Partager",
-    "linkCopied": "Lien Copié",
-    "linkCopiedDesc": "Lien copié dans le presse-papiers.",
-    "sharedRouteTitle": "Itinéraire Partagé : {routeName}",
-    "sharedRouteSubtitle": "Cet itinéraire a été partagé avec vous.",
     "nearbyPoisTitle": "Points d'Intérêt Proches",
     "cityPoisTitle": "Recommandations pour {cityName}",
     "routeDetailsTitle": "Itinéraire {startCity} - {endCity}",
@@ -257,22 +252,16 @@
     "close": "Fermer"
   },
   "Community": {
-    "openHub": "Voyageurs et itinéraires",
-    "title": "Communauté des voyageurs",
-    "subtitle": "Discutez avec les voyageurs en ligne et découvrez les itinéraires partagés.",
+    "openHub": "Voyageurs",
+    "title": "Communauté des Voyageurs",
+    "subtitle": "Discutez avec les voyageurs en ligne.",
     "onlineTab": "En ligne",
-    "routesTab": "Itinéraires partagés",
     "onlineNow": "En ligne maintenant",
     "chat": "Discuter",
     "loading": "Chargement...",
     "loadError": "Impossible de charger les informations de la communauté. Veuillez réessayer plus tard.",
     "noOnlineTitle": "Aucun autre voyageur n’est en ligne pour le moment",
-    "noOnlineDesc": "Les voyageurs apparaîtront ici lorsqu’ils seront en ligne. Vous pourrez alors discuter avec eux.",
-    "noRoutesTitle": "Aucun itinéraire n’a encore été partagé",
-    "noRoutesDesc": "Les itinéraires apparaissent ici lorsque les voyageurs en créent un et génèrent un lien de partage.",
-    "unnamedRoute": "Itinéraire sans titre",
-    "communityRoute": "Itinéraire communautaire",
-    "sharedBy": "Partagé par {name}"
+    "noOnlineDesc": "Les voyageurs apparaîtront ici lorsqu’ils seront en ligne. Vous pourrez alors discuter avec eux."
   },
   "PoiReviewDialog": {
     "details": "Détails",

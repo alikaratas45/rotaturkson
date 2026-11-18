@@ -4,14 +4,13 @@ import { useEffect, useMemo, useState } from 'react';
 import {
   collection,
   limit,
-  orderBy,
   query,
   Timestamp,
   where,
 } from 'firebase/firestore';
 import { useLocale, useTranslations } from 'next-intl';
 import { useFirestore, useMemoFirebase, useUser, useCollection } from '@/firebase';
-import type { ActiveTraveler, RouteResult } from '@/lib/types';
+import type { ActiveTraveler } from '@/lib/types';
 import { Button } from '@/components/ui/button';
 import {
   Dialog,
@@ -23,18 +22,12 @@ import {
 } from '@/components/ui/dialog';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { MessageCircle, MapPinned, Route, Users, Circle, ArrowUpRight } from 'lucide-react';
+import { MessageCircle, Users, Circle } from 'lucide-react';
 
 interface OnlineUser {
   userId: string;
   displayName: string;
   lastSeen: Timestamp;
-}
-
-interface SharedRoute {
-  routeData: Partial<RouteResult>;
-  createdAt: Timestamp;
-  creatorName?: string;
 }
 
 interface CommunityHubProps {
@@ -63,19 +56,8 @@ export function CommunityHub({ onChat }: CommunityHubProps) {
       limit(100)
     );
   }, [db]);
-  const sharedRoutesQuery = useMemoFirebase(() => {
-    if (!db) return null;
-    return query(
-      collection(db, 'sharedRoutes'),
-      orderBy('createdAt', 'desc'),
-      limit(50)
-    );
-  }, [db]);
-
   const { data: onlineUsers, isLoading: isLoadingUsers, error: usersError } =
     useCollection<OnlineUser>(onlineUsersQuery);
-  const { data: sharedRoutes, isLoading: isLoadingRoutes, error: routesError } =
-    useCollection<SharedRoute>(sharedRoutesQuery);
 
   const otherOnlineUsers = useMemo(
     () =>
@@ -98,10 +80,6 @@ export function CommunityHub({ onChat }: CommunityHubProps) {
       lastUpdated: onlineUser.lastSeen,
     });
     setOpen(false);
-  };
-
-  const openSharedRoute = (routeId: string) => {
-    window.open(`/${locale}/share/${routeId}`, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -132,19 +110,12 @@ export function CommunityHub({ onChat }: CommunityHubProps) {
         </DialogHeader>
 
         <Tabs defaultValue="online" className="flex min-h-0 flex-1 flex-col">
-          <TabsList className="mx-6 mt-4 grid w-auto grid-cols-2">
+          <TabsList className="mx-6 mt-4 grid w-auto grid-cols-1">
             <TabsTrigger value="online" className="gap-2">
               <MessageCircle className="h-4 w-4" />
               {t('onlineTab')}
               <span className="rounded-full bg-emerald-100 px-1.5 text-xs text-emerald-700">
                 {otherOnlineUsers.length}
-              </span>
-            </TabsTrigger>
-            <TabsTrigger value="routes" className="gap-2">
-              <MapPinned className="h-4 w-4" />
-              {t('routesTab')}
-              <span className="rounded-full bg-primary/10 px-1.5 text-xs text-primary">
-                {sharedRoutes?.length || 0}
               </span>
             </TabsTrigger>
           </TabsList>
@@ -193,55 +164,6 @@ export function CommunityHub({ onChat }: CommunityHubProps) {
             </ScrollArea>
           </TabsContent>
 
-          <TabsContent value="routes" className="mt-0 min-h-0 flex-1 px-6 pb-6 pt-4">
-            <ScrollArea className="h-full pr-3">
-              {routesError ? (
-                <p className="rounded-xl bg-destructive/10 p-4 text-sm text-destructive">
-                  {t('loadError')}
-                </p>
-              ) : isLoadingRoutes ? (
-                <p className="py-10 text-center text-sm text-muted-foreground">{t('loading')}</p>
-              ) : !sharedRoutes?.length ? (
-                <div className="flex flex-col items-center gap-3 py-14 text-center">
-                  <span className="rounded-full bg-muted p-4 text-muted-foreground">
-                    <Route className="h-7 w-7" />
-                  </span>
-                  <p className="font-semibold">{t('noRoutesTitle')}</p>
-                  <p className="max-w-xs text-sm text-muted-foreground">{t('noRoutesDesc')}</p>
-                </div>
-              ) : (
-                <div className="space-y-3">
-                  {sharedRoutes.map((sharedRoute) => (
-                    <button
-                      key={sharedRoute.id}
-                      type="button"
-                      onClick={() => openSharedRoute(sharedRoute.id)}
-                      className="group w-full rounded-2xl border bg-card p-4 text-left transition hover:border-primary/30 hover:bg-primary/[0.03] hover:shadow-sm"
-                    >
-                      <span className="flex items-start justify-between gap-3">
-                        <span className="min-w-0">
-                          <span className="block truncate font-bold">
-                            {sharedRoute.routeData?.name || t('unnamedRoute')}
-                          </span>
-                          <span className="mt-1 block text-sm text-muted-foreground">
-                            {sharedRoute.routeData?.start?.city && sharedRoute.routeData?.end?.city
-                              ? `${sharedRoute.routeData.start.city} → ${sharedRoute.routeData.end.city}`
-                              : t('communityRoute')}
-                          </span>
-                          {sharedRoute.creatorName && (
-                            <span className="mt-1 block text-xs text-muted-foreground">
-                              {t('sharedBy', { name: sharedRoute.creatorName })}
-                            </span>
-                          )}
-                        </span>
-                        <ArrowUpRight className="h-5 w-5 shrink-0 text-muted-foreground transition group-hover:text-primary" />
-                      </span>
-                    </button>
-                  ))}
-                </div>
-              )}
-            </ScrollArea>
-          </TabsContent>
         </Tabs>
       </DialogContent>
     </Dialog>

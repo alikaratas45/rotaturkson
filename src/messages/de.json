@@ -162,11 +162,6 @@
     "viewOnGoogleMaps": "In Karten ansehen",
     "saveRoute": "Speichern",
     "routeSaved": "Route Gespeichert",
-    "shareRoute": "Teilen",
-    "linkCopied": "Link Kopiert",
-    "linkCopiedDesc": "Link wurde in die Zwischenablage kopiert.",
-    "sharedRouteTitle": "Geteilte Route: {routeName}",
-    "sharedRouteSubtitle": "Diese Route wurde mit Ihnen geteilt.",
     "nearbyPoisTitle": "Sehenswürdigkeiten in Ihrer Nähe",
     "cityPoisTitle": "Empfehlungen für {cityName}",
     "routeDetailsTitle": "Route {startCity} - {endCity}",
@@ -257,22 +252,16 @@
     "close": "Kapat"
   },
   "Community": {
-    "openHub": "Reisende & Routen",
+    "openHub": "Reisende",
     "title": "Reisenden-Community",
-    "subtitle": "Chatten Sie mit Reisenden, die online sind, und entdecken Sie geteilte Routen.",
+    "subtitle": "Chatten Sie mit Reisenden, die online sind.",
     "onlineTab": "Online",
-    "routesTab": "Geteilte Routen",
     "onlineNow": "Jetzt online",
     "chat": "Chatten",
     "loading": "Wird geladen...",
     "loadError": "Community-Informationen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.",
     "noOnlineTitle": "Derzeit sind keine anderen Reisenden online",
-    "noOnlineDesc": "Reisende werden hier angezeigt, sobald sie online sind. Dann können Sie ein Gespräch beginnen.",
-    "noRoutesTitle": "Noch keine Routen geteilt",
-    "noRoutesDesc": "Routen erscheinen hier, wenn Reisende eine Route erstellen und einen Freigabelink erzeugen.",
-    "unnamedRoute": "Unbenannte Route",
-    "communityRoute": "Community-Route",
-    "sharedBy": "Geteilt von {name}"
+    "noOnlineDesc": "Reisende werden hier angezeigt, sobald sie online sind. Dann können Sie ein Gespräch beginnen."
   },
   "PoiReviewDialog": {
     "details": "Einzelheiten",

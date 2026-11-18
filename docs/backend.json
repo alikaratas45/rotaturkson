@@ -42,15 +42,6 @@
         "userName": { "type": "string" }
       }
     },
-    "SharedRoute": {
-      "title": "SharedRoute",
-      "type": "object",
-      "properties": {
-        "routeData": { "type": "object" },
-        "createdAt": { "type": "object" }
-      },
-      "required": ["routeData"]
-    },
     "Feedback": {
       "title": "Feedback",
       "type": "object",
@@ -111,10 +102,6 @@
     "/users/{userId}": {
       "schema": { "$ref": "#/backend/entities/User" },
       "description": "User profiles. Publicly readable for the leaderboard feature."
-    },
-    "/sharedRoutes/{routeId}": {
-      "schema": { "$ref": "#/backend/entities/SharedRoute" },
-      "description": "User shared travel routes."
     },
     "/pois/{poiId}": {
       "schema": { "$ref": "#/backend/entities/POI" },

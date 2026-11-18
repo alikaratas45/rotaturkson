@@ -170,11 +170,6 @@
     "viewOnGoogleMaps": "View on Maps",
     "saveRoute": "Save Route",
     "routeSaved": "Route Saved",
-    "shareRoute": "Share Route",
-    "linkCopied": "Link Copied",
-    "linkCopiedDesc": "Link copied to clipboard.",
-    "sharedRouteTitle": "Shared Route: {routeName}",
-    "sharedRouteSubtitle": "This route has been shared with you.",
     "nearbyPoisTitle": "Places Near You",
     "cityPoisTitle": "Recommendations for {cityName}",
     "routeDetailsTitle": "Route {startCity} - {endCity}",
@@ -267,22 +262,16 @@
     "close": "Close"
   },
   "Community": {
-    "openHub": "Travelers & Routes",
+    "openHub": "Travelers",
     "title": "Traveler Community",
-    "subtitle": "Chat with travelers who are online and discover shared routes.",
+    "subtitle": "Chat with travelers who are online.",
     "onlineTab": "Online",
-    "routesTab": "Shared Routes",
     "onlineNow": "Online now",
     "chat": "Chat",
     "loading": "Loading...",
     "loadError": "Community information could not be loaded. Please try again later.",
     "noOnlineTitle": "No other travelers are online right now",
-    "noOnlineDesc": "Travelers will appear here when online, and you can start a conversation with them.",
-    "noRoutesTitle": "No routes have been shared yet",
-    "noRoutesDesc": "Routes appear here when travelers create a route and generate a share link.",
-    "unnamedRoute": "Untitled Route",
-    "communityRoute": "Community route",
-    "sharedBy": "Shared by {name}"
+    "noOnlineDesc": "Travelers will appear here when online, and you can start a conversation with them."
   },
   "PoiReviewDialog": {
     "details": "Details",

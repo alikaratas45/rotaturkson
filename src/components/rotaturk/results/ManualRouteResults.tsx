@@ -3,17 +3,13 @@
 import { RouteResult, POI, ActiveTraveler } from '@/lib/types';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
-import { ExternalLink, Save, Map, Fuel, Clock, Pin, Share2, Check, Loader2, RefreshCw, Navigation, StopCircle, ArrowRight, Route as RouteIcon, Info } from 'lucide-react';
+import { ExternalLink, Save, Map, Fuel, Clock, Pin, RefreshCw, Navigation, StopCircle, ArrowRight, Route as RouteIcon, Info } from 'lucide-react';
 import { PoiCard } from '../cards/PoiCard';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useState } from 'react';
 import { PoiReviewDialog } from '../dialogs/PoiReviewDialog';
-import { useTranslations, useLocale } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { useToast } from '@/hooks/use-toast';
-import { useFirestore, useUser } from '@/firebase';
-import { doc, collection, setDoc, serverTimestamp } from 'firebase/firestore';
-import { errorEmitter } from '@/firebase/error-emitter';
-import { FirestorePermissionError } from '@/firebase/errors';
 import { EmbeddedMap } from '@/components/map';
 import { cn } from '@/lib/utils';
 import { getManualRoute } from '@/app/actions';
@@ -22,7 +18,6 @@ interface ManualRouteResultsProps {
   result: Partial<RouteResult>;
   onSave?: (route: RouteResult) => void;
   isSaved?: boolean;
-  isSharedPage?: boolean;
   onMarkerClick?: (poi: POI) => void;
   onTravelerClick?: (traveler: ActiveTraveler) => void;
   onResultUpdate?: (type: 'manual', data: Partial<RouteResult>) => void;
@@ -50,7 +45,6 @@ export function ManualRouteResults({
     result: initialResult, 
     onSave, 
     isSaved, 
-    isSharedPage = false,
     onMarkerClick,
     onTravelerClick,
     onResultUpdate,
@@ -58,16 +52,11 @@ export function ManualRouteResults({
 }: ManualRouteResultsProps) {
     const result = initialResult as RouteResult;
     const [selectedPoiForDialog, setSelectedPoiForDialog] = useState<POI | null>(null);
-    const [isSharing, setIsSharing] = useState(false);
-    const [isCopied, setIsCopied] = useState(false);
     const [isNavigating, setIsNavigating] = useState(false);
     const [selectedPoiIds, setSelectedPoiIds] = useState<Set<string>>(new Set());
     
-    const db = useFirestore();
-    const { user } = useUser();
     const t = useTranslations('ManualRouteResults');
     const t_duration = useTranslations('Duration');
-    const locale = useLocale();
     const { toast } = useToast();
 
     const isCalculatedRoute = result?.start && result?.end;
@@ -75,9 +64,6 @@ export function ManualRouteResults({
     const isLoopRoute = result?.routeId?.includes('loop');
     
     const getTitle = () => {
-        if (isSharedPage) {
-            return t('sharedRouteTitle', { routeName: result?.name || '' });
-        }
         if (isLoopRoute) {
             return result?.name || t('circularTourTitle');
         }
@@ -92,9 +78,6 @@ export function ManualRouteResults({
     }
 
     const getSubtitle = () => {
-        if (isSharedPage) {
-            return t('sharedRouteSubtitle');
-        }
         if (isLoopRoute) {
             return t('loopRouteSubtitle');
         }
@@ -107,54 +90,6 @@ export function ManualRouteResults({
     const handleSave = () => {
         if (onSave && result) {
             onSave(result);
-        }
-    }
-
-    const handleShare = async () => {
-        if (!db || !result) return;
-        setIsSharing(true);
-        
-        try {
-            const sharedCol = collection(db, 'sharedRoutes');
-            const newDocRef = doc(sharedCol);
-            const shareUrl = `${window.location.origin}/${locale}/share/${newDocRef.id}`;
-
-            const updateData = {
-                routeData: result,
-                createdBy: user?.uid || null,
-                creatorName: user?.displayName || null,
-                createdAt: serverTimestamp()
-            };
-
-            await setDoc(newDocRef, updateData).catch((serverError) => {
-                const permissionError = new FirestorePermissionError({
-                    path: newDocRef.path,
-                    operation: 'create',
-                    requestResourceData: updateData,
-                });
-                errorEmitter.emit('permission-error', permissionError);
-                throw serverError;
-            });
-
-            if (navigator.share) {
-                await navigator.share({
-                    title: `RotaTurk - ${result.name}`,
-                    text: `Bu rotayı seninle paylaşıyorum: ${result.name}`,
-                    url: shareUrl,
-                });
-            } else {
-                await navigator.clipboard.writeText(shareUrl);
-                setIsCopied(true);
-                toast({
-                    title: t('linkCopied'),
-                    description: t('linkCopiedDesc'),
-                });
-                setTimeout(() => setIsCopied(false), 3000);
-            }
-        } catch (error) {
-            console.error("Share failed", error);
-        } finally {
-            setIsSharing(false);
         }
     }
 
@@ -235,7 +170,7 @@ export function ManualRouteResults({
                         {getSubtitle()}
                     </p>
                 </div>
-                {!isSharedPage && isCalculatedRoute && (
+                {isCalculatedRoute && (
                   <div className="flex gap-2">
                     <Button 
                         onClick={() => setIsNavigating(!isNavigating)}
@@ -256,7 +191,7 @@ export function ManualRouteResults({
             </div>
 
             {/* Özel Seçim Alanı */}
-            {!isSharedPage && poiCount > 0 && (
+            {poiCount > 0 && (
                 <div className="bg-white/95 dark:bg-zinc-900/95 backdrop-blur-md p-6 rounded-[2rem] border border-white/20 shadow-xl space-y-4 animate-in slide-in-from-top-4">
                     <div className="flex items-start gap-4">
                         <div className="bg-primary/20 p-3 rounded-2xl text-primary shrink-0">
@@ -344,27 +279,10 @@ export function ManualRouteResults({
                         </a>
                     </Button>
                 )}
-                {onSave && !isSharedPage && result && (
+                {onSave && result && (
                     <Button variant="secondary" onClick={handleSave} disabled={isSaved} className="rounded-full bg-white h-12 px-8 font-bold shadow-lg text-black hover:bg-white/90">
                         <Save className="mr-2 h-5 w-5 text-black" />
                         <span className="text-black">{isSaved ? t('routeSaved') : t('saveRoute')}</span>
-                    </Button>
-                )}
-                {!isSharedPage && result && (
-                    <Button 
-                        variant="secondary" 
-                        onClick={handleShare} 
-                        disabled={isSharing} 
-                        className="rounded-full bg-white h-12 px-8 font-bold shadow-lg text-black hover:bg-white/90"
-                    >
-                        {isSharing ? (
-                            <Loader2 className="mr-2 h-5 w-5 animate-spin text-black" />
-                        ) : isCopied ? (
-                            <Check className="mr-2 h-5 w-5 text-black" />
-                        ) : (
-                            <Share2 className="mr-2 h-5 w-5 text-black" />
-                        )}
-                        <span className="text-black">{isCopied ? t('linkCopied') : t('shareRoute')}</span>
                     </Button>
                 )}
             </div>
@@ -398,7 +316,7 @@ export function ManualRouteResults({
                                 key={poi.id} 
                                 poi={poi} 
                                 onShowDetails={handleShowDetails} 
-                                selectable={!isSharedPage}
+                                selectable
                                 isSelected={selectedPoiIds.has(poi.id)}
                                 onToggleSelect={togglePoiSelection}
                             />
@@ -416,7 +334,7 @@ export function ManualRouteResults({
                                 key={poi.id} 
                                 poi={poi} 
                                 onShowDetails={handleShowDetails} 
-                                selectable={!isSharedPage}
+                                selectable
                                 isSelected={selectedPoiIds.has(poi.id)}
                                 onToggleSelect={togglePoiSelection}
                             />
